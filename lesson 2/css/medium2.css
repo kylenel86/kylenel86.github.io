@@ -1,0 +1,26 @@
+@media only screen and (min-width: 32.5em) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    body {
+        width: 90%;
+    }
+
+    header,
+    main,
+    footer {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    header,
+    footer {
+        border-radius: 15px;
+    }
+}

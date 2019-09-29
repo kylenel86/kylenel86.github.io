@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+
+body {
+    line-height: 1.5;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+}
+
+header {
+    padding-top: 1px;
+}
+
+footer {
+    padding-bottom: 1px;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+main {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+    }
+
+header,
+footer {
+    background-color: rgb(102, 199, 208);
+    color:  rgb(255, 255, 255);
+    text-align: center;
+}
+
+section {
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(228, 210, 247);
+    padding: -5% 5% 5% 5%;
+    line-height: 1.6;
+    margin-bottom: 4%;
+}
+section p, section a {
+    padding: 0 14px 0 14px;
+    text-align: justify;
+}
+
+section h3 {
+    position: relative;
+    background-color:  rgb(102, 199, 208);
+    color:  rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 5px 0 5px 5px;
+    top: -16px;
+    border-radius: 10px 10px 0 0;
+} 
+
+section img {
+    padding: -5px 5px 0 5px;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+h1,
+h2 {
+    color:  rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 10px 0 10px 10px;
+}
+
+header {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding: 1px 0 1px 0;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    color: rgb(228, 210, 247);
+}
+
+section a {
+    color: rgb(255, 255, 255);
+}
+
+section a:hover {
+    color:  rgb(102, 199, 208);
+}

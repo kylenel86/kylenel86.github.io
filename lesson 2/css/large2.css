@@ -1,0 +1,14 @@
+@media (min-width: 60em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+    body {
+        width: 80%;
+    }
+
+}

@@ -1,9 +1,9 @@
 header{
     font-family: 'Fira Sans', sans-serif;
-    background-color: rgb(102, 199, 208);
+    background-color: #66c7d0;
     padding: 8px 8px 8px 48px;
     border-radius: 8px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
 }
 header img{
     width: 160px;
@@ -23,8 +23,8 @@ section.cit{
     margin: 48px 0;
 }
 footer{
-    background-color: rgb(102, 199, 208);
-    color: rgb(255, 255, 255);
+    background-color: #66c7d0;
+    color: #FFFFFF;
     text-align: center;
     border-radius: 10px;
     margin: 1% 2.5% 1%;

@@ -6,10 +6,6 @@ body {
     font-family: 'Libre Baskerville', serif;
     font-size: 14px;
     background-color: #EAEAEA
-
-    p{
-        color: #1213OF; 
-    }
 }
 
 body, header, nav, main, footer {
@@ -56,6 +52,7 @@ main {
 }
 
 main p {
+    color: #12130F; 
     margin: 8px;
 }
 

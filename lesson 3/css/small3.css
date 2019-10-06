@@ -1,4 +1,8 @@
-h1, h2, h3{
+h1{font-family: 'Montserrat', sans-serif;
+    color: #EAEAEA;
+
+}
+h2, h3{
     font-family: 'Montserrat', sans-serif;
     color: #003776;
 }

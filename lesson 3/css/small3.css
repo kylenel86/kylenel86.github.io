@@ -1,11 +1,11 @@
 h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
-    color: #6E8898;
+    color: #003776;
 }
 body {
     font-family: 'Libre Baskerville', serif;
     font-size: 14px;
-    background-color: #EAEAEA
+    background-color: #EAEAEA;
 }
 
 body, header, nav, main, footer {
@@ -17,7 +17,10 @@ body, header, nav, main, footer {
 /* Small View */
 header, footer {
 	background-color: #003776;
-	display: flex;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    background-color: #EAEAEA;
+    display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;

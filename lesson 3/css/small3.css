@@ -19,7 +19,7 @@ body, header, nav, main, footer {
 }
 
 /* Small View */
-header, footer {
+header, footer code.js{
 	background-color: #003776;
     font-family: 'Libre Baskerville', serif;
     font-size: 14px;
@@ -49,8 +49,8 @@ nav li a {
 }
 
 nav a:hover {
-	background-color: #6E8898;
-	color: #A7A2A9;
+	background-color: #A7A2A9;
+	color: #6E8898;
 }
 
 main {

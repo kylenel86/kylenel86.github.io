@@ -1,9 +1,15 @@
 h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
+    color: #6E8898;
 }
 body {
     font-family: 'Libre Baskerville', serif;
     font-size: 14px;
+    background-color: #EAEAEA
+
+    p{
+        color: #1213OF; 
+    }
 }
 
 body, header, nav, main, footer {
@@ -14,7 +20,7 @@ body, header, nav, main, footer {
 
 /* Small View */
 header, footer {
-	background-color: #3E6990;
+	background-color: #003776;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -23,7 +29,7 @@ header, footer {
 }
 
 nav {
-    background-color: #2E2C2F;
+    background-color: #A7A2A9;
     text-align: center;
 }
 nav ul {
@@ -40,7 +46,7 @@ nav li a {
 }
 
 nav a:hover {
-	background-color: #D6F49D;
+	background-color: #EAEAEA;
 	color: #605F5E;
 }
 

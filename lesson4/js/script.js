@@ -1,4 +1,3 @@
 function toggleMenu() {
-    
-    document.getElementById("primaryNav").classlist.toggle("hide");
+    document.getElementsByClassName("primaryNav")[0].classList.toggle("hide");
 }

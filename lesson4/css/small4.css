@@ -36,6 +36,8 @@ nav ul li.active a{background-color: rbga(0,0,0,0.2); color:#fff;}
 
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
+nav ul.hide {display: none;} 
+
 
 .clearfix:after {
     content: "";

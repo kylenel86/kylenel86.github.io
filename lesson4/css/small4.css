@@ -28,6 +28,7 @@ body, header, nav, main, footer {
 header, footer{
     font-family: 'Libre Baskerville', serif;
     font-size: 14px;
+    color: #EAEAEA;
     background-color: #003776;
     display: flex;
 	flex-flow: column;

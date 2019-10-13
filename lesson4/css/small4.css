@@ -8,7 +8,7 @@ h1{font-family: 'Montserrat', sans-serif;
     color: #EAEAEA;
 
 }
-h2, h3{
+h2 {
     font-family: 'Montserrat', sans-serif;
     color: #003776;
 }
@@ -31,7 +31,7 @@ header, footer{
     background-color: #003776;
     display: flex;
 	flex-flow: column;
-	align-items: center;
+	align-items: right;
 	justify-content: center;
 	padding: 10px;
 }

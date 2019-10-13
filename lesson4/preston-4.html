@@ -15,16 +15,17 @@
 </head>
 
     <header>
+        <img src="images/rsz_2iconfinder_weather-partlycloudy_header.png" alt="Logo with sun behind cloud">
         <section class="headings">
-            <img id="header-img" src="images/rsz_2iconfinder_weather-partlycloudy_header.png" alt="Logo with sun behind cloud."/>
             <h1>
-                South Eastern Idaho Weather 
+                South Eastern Idaho Weather
             </h1>
-        </section> 
+            <div class="moto">Brining you the latest weather!</div>
+        </section>   
     </header>
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="#">Home</a></li>
             <li class="active"><a href="#">Preston</a></li> 
             <li><a href="#">Soda Springs</a></li>   
@@ -57,10 +58,12 @@
         </section>
     </main>
     <footer>
-        <p>© <span class="currentyear"></span> | Kylene Little | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-        <p>Last Updated: <span class="lastupdate"></span></p>   
-    </footer>
-    <script src="js/code.js"></script>
-    <script src="js/script.js"></script>
+        &copy; Kylene Little | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a> <span
+        id="todaysDate"></span>
+    <br>
+
+</footer>
+<script src="js/todaysDate.js"></script>
 </body>
+<script src="js/toggleMenu.js"></script>
 </html>

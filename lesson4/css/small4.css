@@ -26,6 +26,10 @@ footer {
     height:60px;          
   }
 
+  footer a {
+    color: #EAEAEA;
+}
+
 header {
     display: flex;
     align-items: center;

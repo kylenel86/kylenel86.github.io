@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35em) {
 
-    nav button {display:none;}
+    nav button {display:flex;}
 
     nav ul.hide {display:block;}
 

@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 
-nav ul li.active a{background-color: rbga(0,0,0,0.2); color:#fff;}
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color:#fff;}
 
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
@@ -74,7 +74,7 @@ header, footer{
     background-color: #003776;
     display: flex;
 	flex-flow: column;
-	align-items: right;
+	align-items: flex-start;
 	justify-content: center;
 	padding: 10px;
 }

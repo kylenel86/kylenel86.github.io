@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap');
 
 body {
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    background-color: #EAEAEA;
     padding: 0;
     margin: 0;
 }
@@ -13,9 +12,10 @@ header, footer {
     margin: 0 auto;
     padding: 0.15rem;
     max-width: auto;
-    background-color: rgba(238, 128, 3, 0.795);
+    background-color: #003776;
     text-align: center;
-    font-family: 'Segoe UI';
+    font-family: 'Libre Baskerville', serif;
+    color: #EAEAEA;
 }
 header {
     display: flex;
@@ -29,10 +29,11 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
+    font-family: 'Montserrat', sans-serif;
 }
 .moto {
-    font-family: 'Playfair Display';
-    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+    font-style: bold;
     margin-left: 20px;
 }
 footer {
@@ -52,13 +53,12 @@ nav ul {
 
 
 .active {
-    color: yellow;
+    color: white;
 }
 
 .navigation {
-    background-color: rgb(9, 9, 105);
+    background-color:  #6E8898;
     text-align: center;
-    box-shadow: 0 2px 15px rgb(107, 106, 106);
     list-style: none;
     text-align: center;
     padding: 0;
@@ -81,7 +81,7 @@ nav ul {
 }
 
 .navigation a:hover {
-    background-color: rgb(0, 225, 255);
+    background-color: #1213;
     color: #000;
     font-weight: 700;
 }
@@ -92,18 +92,18 @@ nav ul {
 
 main {
     padding: 0px;
-    margin: auto;
+    margin: 5px;
     text-align: center;
-    background-color: rgba(9, 9, 9, .2);
+    background-color: 
     max-width: 750px;
 }
 main section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Courgette';
+    font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 main h1 {
-    background-color: rgb(0, 225, 255);
+    background-color:  #6E8898;
 }

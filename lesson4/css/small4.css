@@ -12,7 +12,6 @@ body {
 header, footer {
     margin: 0 auto;
     padding: 0.15rem;
-    max-width: auto;
     background-color: #003776;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
@@ -47,7 +46,7 @@ header {
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
-    font-style: bold;
+    font-weight: bold;
     margin-left: 20px;
 }
 footer {
@@ -105,9 +104,8 @@ nav ul {
 
 main {
     padding: 0px;
-    margin: 5px;
-    text-align: center;
-    background-color: 
+    margin: 5px auto;
+    text-align: center; 
     max-width: 750px;
 }
 main section {

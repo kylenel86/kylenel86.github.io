@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    background-color: #EAEAEA;
+    padding: 0;
+    margin: 0;
+}
+/* Small / Baseline view */
+header, footer {
+    margin: 0 auto;
+    padding: 0.15rem;
+    background-color: #003776;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #EAEAEA;
+}
+
+footer {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:60px;          
+  }
+
+  footer a {
+    color: #EAEAEA;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.moto {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+footer {
+    max-width: 750px;
+}
+header img {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.active {
+    color: white;
+}
+
+.navigation {
+    background-color:  #6E8898;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #1213;
+    color: #000;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center; 
+    max-width: 750px;
+}
+main section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+main h1 {
+    background-color:  #6E8898;
+}

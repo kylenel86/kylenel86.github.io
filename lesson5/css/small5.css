@@ -43,6 +43,13 @@ header img {
     height: auto;
 }
 
+.class {
+    width: 300px;
+    border: 15px #003776; 
+    padding: 50px;
+    margin: 20px;
+  }
+
 nav ul {
     list-style-type: none;
     margin: 0;

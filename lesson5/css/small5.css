@@ -118,11 +118,20 @@ footer {
 }
 .article, .contact {
     display: flex;
-    border: dashed black 1px;
-    background-color: #D6F49D;
+    border: solid white;
+    background-color: #6E8898;
     padding: 5px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;   
+}
+.weathersummary {
+    position: absolute;
+    top: 4rem;
+    left: 20px;
+    line-height: .5;
+    padding: 5px;
+    background: ;
+    background: radial-gradient(#fed766, #d27f0f);
 }

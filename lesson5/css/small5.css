@@ -104,18 +104,7 @@ main section {
 main h1 {
     background-color:  #6E8898;
 }
-footer {
-    position: absolute;
-    bottom:0;
-    left: 0;
-    right: 0;
-    height:60px;
-    max-width: auto;          
-  }
 
-  footer a {
-    color: #EAEAEA;
-}
 .article, .contact {
     display: flex;
     border: solid white;
@@ -134,3 +123,16 @@ footer {
     padding: 5px;
     color: #EAEAEA;
     background: #6E8898;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:60px;
+    max-width: auto;          
+  }
+
+  footer a {
+    color: #EAEAEA;
+}

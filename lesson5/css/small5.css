@@ -116,3 +116,13 @@ footer {
   footer a {
     color: #EAEAEA;
 }
+.article, .contact {
+    display: flex;
+    border: dashed black 1px;
+    background-color: #D6F49D;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;   
+}

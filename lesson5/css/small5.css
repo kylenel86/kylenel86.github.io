@@ -133,5 +133,5 @@ footer {
     line-height: .5;
     padding: 5px;
     color: #EAEAEA;
-    background: #6E8898;
+    background: radial-gradient(#6E8898, #003776;); 
 }

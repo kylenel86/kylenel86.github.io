@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Preston Page of Weather Site Continued</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" This is the main page in the Preston tab with added elements">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize6.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small6.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium6.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large6.css" />
+</head>
+<body>
+    <header>
+        <img src="images/rsz_1rsz_1274769-256.png" alt="Logo with sun behind cloud">
+        <section class="headings">
+            <h1>
+                South Eastern Idaho Weather
+            </h1>
+            <div class="moto">Brining you the latest weather!</div>
+        </section>   
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li> 
+            <li><a href="#">Soda Springs</a></li>   
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Strom Center</a></li> 
+            <li><a href="#">Gallery</a></li>       
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="heroimg">
+            <img src="images/prestonph.jpg" alt="snowy  small town with buildings and trees" class="prestonhi">
+        </div>
+        <div class="weathersummary">
+                <h3>Weather Summary</h3><br>
+                <p>Currently: Sunny</p>
+                <p>Temperature: 60 &deg; F</p>
+                <p>Humidity: 20%</p>
+                <p>Precipitation: 2 inches</p>
+                <p>Wind Speed: 15 mph</p>
+            </div>
+        <div class="forecast">
+            <img src="images/rsz_17dayforcast.jpg" alt="template of 7 day forecast" class="temp">
+        </div>
+        <div class="article">
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a mi ut felis rutrum consectetur sed eget turpis. 
+                Praesent urna est, convallis at laoreet ac, tempus id quam. Sed ac lacus vehicula, euismod mi a, dapibus ipsum. 
+                Etiam ut magna quam. Fusce ac pulvinar metus, vel varius ligula. Maecenas ipsum neque, placerat suscipit vehicula quis, 
+                porta eget enim. Maecenas luctus venenatis purus, et interdum risus dictum vitae. Quisque nec facilisis felis, ac sagittis purus. 
+                Quisque eu purus ac enim congue semper non sit amet est.</p>                
+            <img src="images/foodarticleph.jpg" alt="foodtabledisplay" class="food">
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <img src="images/PrestonIDmap.png" alt="map of Preston Idaho" class="mappreston">
+        </div>
+    </main>
+    <footer>
+        <p>© <span class="currentyear"></span> | Kylene Little | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+</footer>
+<script src="js/todaysDate.js"></script>
+<script src="js/toggleMenu.js"></script>
+<script src="js/currentYear.js"></script>
+<script src="js/bannerHeader.js"></script>
+</body>
+</html>

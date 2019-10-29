@@ -74,8 +74,12 @@ nav ul {
     display: block;
     color: #fff;
     padding: 0.75rem;
+    padding: 10px;
     text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navigation a:hover {

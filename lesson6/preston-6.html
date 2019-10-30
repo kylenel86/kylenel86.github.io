@@ -35,7 +35,13 @@
     
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="contentbox hero">
+        <div class="hero">
+                <picture>
+                    <source srcset="images/cit230week6sml.jpg" media="(max-width: 599px)">
+                    <source srcset="images/cit230week6med.jpg" media="(min-width: 600px) and (max-width:1039px)">
+                    <source srcset="images/cit230week6lrg.jpg" media="(min-width: 1040px)">
+                    <img src="images/cit230week6lrg.jpg" alt="image of a lake in Idaho">
+                </picture>
             <div class="weathersummary">
                 <h3>Weather Summary</h3>
                 <hr>
@@ -44,13 +50,7 @@
                 <p>Humidity: 20%</p>
                 <p>Precipitation: 2 inches</p>
                 <p>Wind Speed: 15 mph</p>
-            </div>    
-            <picture>
-                    <source srcset="images/cit230week6sml.jpg" media="(max-width: 599px)">
-                    <source srcset="images/cit230week6med.jpg" media="(min-width: 600px) and (max-width:1039px)">
-                    <source srcset="images/cit230week6lrg.jpg" media="(min-width: 1040px)">
-                    <img src="images/cit230week6lrg.jpg" alt="image of a lake in Idaho">
-                </picture>
+            </div>
         </div>
         <div class="forecast">
                 <h3>5-Day Forecast</h3>

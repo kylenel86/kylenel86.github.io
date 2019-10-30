@@ -42,9 +42,13 @@ header {
  position: relative;
 }
 
-img.prestonhi{
+img.prestonhi {
     width:100%;
 }
+
+.foodimg [
+width:38%
+]
 
 header img {
     width: 80px;
@@ -119,6 +123,8 @@ main h1 {
 
 .article, .contact {
     display: flex;
+    flex-direction: column;
+    flex-wrap: flex;
     border: solid white;
     background-color: #6E8898;
     padding: 5px;
@@ -126,6 +132,10 @@ main h1 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;   
+}
+
+.article p {
+width: 48%;
 }
 .weathersummary {
     position: absolute;
@@ -136,6 +146,11 @@ main h1 {
     color: #EAEAEA;
     background: #6E8898;
 }
+
+.article h2, .contacth2 {
+    width: 100%;
+}    
+
 footer {
     bottom:0;
     left: 0;

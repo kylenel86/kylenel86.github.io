@@ -35,8 +35,13 @@
     
     <main>
         <h2>Preston, Idaho</h2>
-        <div class="heroimg">
-            <img src="images/prestonph.jpg" alt="snowy  small town with buildings and trees" class="prestonhi">
+        <div class="contentbox hero">
+                <picture>
+                    <source media="(max-width: 599px)" srcset="images/cit230week6sm.jpg">
+                    <source media="(min-width: 600px) and (max-width:1039px)" srcset="images/cit230week6med.jpg">
+                    <source media="(min-width: 1040px)" srcset="images/cit230week6lrg">
+                        <img src="images/cit230week6lrg.jpg" alt="image of a lake in Idaho">
+                </picture>
             <div class="weathersummary">
                 <h3>Weather Summary</h3>
                 <hr>

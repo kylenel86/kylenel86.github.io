@@ -64,8 +64,9 @@ nav ul {
 }
 
 
-.active {
+.active a {
     color: white;
+    background-color: skyblue;
 }
 
 .navigation {

@@ -149,6 +149,10 @@ width: 48%;
     background: #6E8898;
 }
 
+.forcast, img.mappreston{
+    display: none;
+}
+
 .article h2, .contacth2 {
     width: 100%;
 }    

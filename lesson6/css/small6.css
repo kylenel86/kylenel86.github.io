@@ -53,6 +53,20 @@ header img {
     height: auto;
 }
 
+.forecast {
+    background-color:  #003776;
+    margin: 2% 0;
+    padding: 2%;
+    display: flex;
+    max-width: 1200px;
+
+}
+
+.forecast h3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -101,20 +115,6 @@ nav ul {
 
 .responsive li {
     display: block;
-}
-
-.foretable {
-    background-color:  #003776;
-    margin: 2% 0;
-    padding: 2%;
-    display: flex;
-    max-width: 1200px;
-
-}
-
-.forecast h3 {
-    margin: 0 auto;
-    text-align: center;
 }
 
 main {

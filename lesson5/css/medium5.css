@@ -21,7 +21,7 @@
     nav ul.navigation li:first-child {display:none; }
     nav ul.responsive li:first-child {display:none;}
   
-    .forcast, img.mappreston{
+    .forcast, img.temp, img.mappreston{
         display: block;
     }
 }

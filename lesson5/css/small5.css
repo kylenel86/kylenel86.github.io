@@ -38,6 +38,10 @@ header {
     margin-left: 20px;
 }
 
+.heroimage {
+ position: relative;   
+}
+
 header img {
     width: 80px;
     height: auto;

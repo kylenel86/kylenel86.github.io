@@ -45,6 +45,7 @@ header {
 img.food {
     width: 38%;
     margin: auto;
+    position: relative;
     } 
 
 img.prestonhi {

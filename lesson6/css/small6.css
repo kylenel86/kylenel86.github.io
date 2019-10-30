@@ -103,6 +103,20 @@ nav ul {
     display: block;
 }
 
+.forcast {
+    background-color:  #003776;
+    margin: 2% 0;
+    padding: 2%;
+    display: flex;
+    max-width: 1200px;
+
+}
+
+.forcast h3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
 main {
     padding: 0px;
     margin: 5px auto;

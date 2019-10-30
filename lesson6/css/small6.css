@@ -53,6 +53,11 @@ header img {
     height: auto;
 }
 
+.forecast h3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .forecast {
     background-color:  #003776;
     margin: 2% 0;
@@ -60,11 +65,6 @@ header img {
     display: flex;
     max-width: 1200px;
 
-}
-
-.forecast h3 {
-    margin: 0 auto;
-    text-align: center;
 }
 
 nav ul {

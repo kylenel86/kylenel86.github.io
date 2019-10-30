@@ -42,7 +42,7 @@ header {
  position: relative;
 }
 
-img.food {
+img.food , img.mappreston {
     width: 38%;
     margin: auto;
 }

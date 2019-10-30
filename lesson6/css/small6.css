@@ -53,6 +53,11 @@ header img {
     height: auto;
 }
 
+.hero img {
+    max-width: 1200px;
+    width: 100%;
+}
+
 .forecast h3 {
     margin: 0 auto;
     text-align: center;

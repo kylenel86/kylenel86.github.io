@@ -42,14 +42,14 @@ header {
  position: relative;
 }
 
+img.food {
+    width: 38%;
+    margin; auto;
+    } 
+
 img.prestonhi {
     width:100%;
 }
-
-img.food {
-width: 38%;
-margin; auto;
-} 
 
 header img {
     width: 80px;

@@ -28,12 +28,25 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
     margin-left: 20px;
+}
+
+.heroimg {
+ position: relative;
+}
+
+img.food , img.mappreston {
+    width: 38%;
+    margin: auto;
+}
+
+img.prestonhi {
+    width:100%;
 }
 
 header img {
@@ -49,8 +62,9 @@ nav ul {
 }
 
 
-.active {
+.active a {
     color: white;
+    background-color: #a3a0ab;
 }
 
 .navigation {
@@ -72,13 +86,17 @@ nav ul {
     display: block;
     color: #fff;
     padding: 0.75rem;
+    padding: 10px;
     text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navigation a:hover {
     background-color: #1213;
-    color: #000;
+    color: #EAEAEA;
     font-weight: 700;
 }
 
@@ -105,6 +123,8 @@ main h1 {
 
 .article, .contact {
     display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
     border: solid white;
     background-color: #6E8898;
     padding: 5px;
@@ -113,22 +133,34 @@ main h1 {
     margin-right: auto;
     width: 80%;   
 }
+
+.article p {
+width: 48%;
+}
 .weathersummary {
     position: absolute;
-    top: 4rem;
+    top: 20px;
     left: 20px;
     line-height: .5;
     padding: 5px;
     color: #EAEAEA;
     background: #6E8898;
 }
+
+.forcast, img.temp, img.mappreston{
+    display: none;
+}
+
+.article h2, .contacth2 {
+    width: 100%;
+}    
+
 footer {
-    position: absolute;
     bottom:0;
     left: 0;
     right: 0;
     height:60px;
-    max-width: auto;          
+    max-width: 80%;          
   }
 
   footer a {

@@ -46,9 +46,10 @@ img.prestonhi {
     width:100%;
 }
 
-.foodimg [
-width:38%
-]
+.foodimg {
+width: 38%
+margin: auto;
+} 
 
 header img {
     width: 80px;

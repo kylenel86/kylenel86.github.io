@@ -40,7 +40,10 @@ header {
 
 .heroimg {
  position: relative;
- width: 100%;   
+}
+
+.heroimg{
+    width:100%;
 }
 
 header img {

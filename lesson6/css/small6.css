@@ -61,6 +61,7 @@ header img {
 .forecast {
     background-color: #6E8898;
     margin: 2% 0;
+    text-align: center;
     padding: 2%;
     display: flex;
     max-width: 1200px;

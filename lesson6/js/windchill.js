@@ -14,7 +14,7 @@ function newChill(){
             //var f = speed:
             if (temp <= 50 && speed > 3) {  
                 f = 32.74 + (0.6215 * temp)-(35.75 * Math.pow(speed,0.16)) + (0.4275 * temp * Math.pow(speed,0.16));
-                Math.round(f* 100) / 100;
+                f = Math.round(f* 100) / 100;
             }
             return f;
     

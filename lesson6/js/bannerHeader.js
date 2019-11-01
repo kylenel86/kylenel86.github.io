@@ -2,6 +2,6 @@ function pancakebrk(){
     var wd = new Date().getDay();
     
     if (wd == 5) {
-        document.getElementById("pancakes").innerHTML = "Come join us for pancakes in the park!  Preston Downtown Park, 9 A.M. EVERY Friday!"
+        document.getElementById("pancakes").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
     }
     }

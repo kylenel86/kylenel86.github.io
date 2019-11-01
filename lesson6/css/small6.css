@@ -161,7 +161,7 @@ width: 48%;
     background: #6E8898;
 }
 
-.class.forecast, .img.temp, .dotimg.mappreston,{
+.forcast, img.temp, img.mappreston{
     display: none;
 }
 

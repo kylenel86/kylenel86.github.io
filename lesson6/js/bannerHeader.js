@@ -1,4 +1,7 @@
-var d = new Date();
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-document.getElementById("currentDate").innerHTML = days[d.getDay()] + ", " + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
+function pancakebrk(){
+    var wd = new Date().getDay();
+    
+    if (wd == 5) {
+        document.getElementById("pancakes").innerHTML = "Come join us for pancakes in the park!  Preston Downtown Park, 9 A.M. EVERY Friday!"
+    }
+    }

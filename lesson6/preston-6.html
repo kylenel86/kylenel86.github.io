@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/medium6.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/large6.css" />
 </head>
-<body>
+<body onload="newChill()"> 
     <header>
         <img src="images/rsz_1rsz_1274769-256.png" alt="Logo with sun behind cloud">
         <section class="headings">
@@ -46,11 +46,11 @@
                 <h3>Weather Summary</h3>
                 <hr>
                 <p>Currently: Sunny</p>
-                <p>Temperature: 60 &deg; F</p>
+                <p>Temperature:<span id="high"></span> 60 &deg; F</p>
                 <p>Humidity: 20%</p>
                 <p>Precipitation: 2 inches</p>
-                <p>Wind Speed: 15 mph</p>
-                <p>Wind Chill: </p>
+                <p>Wind Speed:<span id="speed"></span>15 mph</p>
+                <p>Wind Chill:<span id="windchill"></span></p>
             </div>
         </div>
         <div class="forecast">
@@ -81,5 +81,6 @@
 <script src="js/toggleMenu.js"></script>
 <script src="js/currentYear.js"></script>
 <script src="js/bannerHeader.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html>

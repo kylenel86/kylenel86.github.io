@@ -34,26 +34,62 @@
         </ul>
     </nav>
     <main>
-        <h2>Lazy Images</h2>
-        <picture id="pic1">
-            <img src="images/placeholder.jpg" data-src="images/ocean.jpg" alt="rowboat on the ocean">
-        </picture>
-        <picture id="pic2">
-            <img src="images/placeholder.jpg" data-src="images/forest.jpg" alt="forest of trees">
-        </picture>
-        <picture id="pic3">
-            <img src="images/placeholder.jpg" data-src="images/hills.jpg" alt="rolling green hills">
-        </picture>
-        <picture id="pic4">
-            <img src="images/placeholder.jpg" data-src="images/mountain.jpg" alt="mountain lake">
-        </picture>
-        <picture id="pic5">
-            <img src="images/placeholder.jpg" data-src="images/mtnriver.jpg" alt="river running through mountains">
-        </picture>
-        <picture id="pic6">
-            <img src="images/placeholder.jpg" data-src="images/waterfall.jpg" alt="waterfall over a valley">
-        </picture>
-        </div>
+        <h2>Gallery</h2>
+        <div id="galleryGrid">
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/sunny.jpg' alt='Sunny Weather'>
+                </picture>
+                <p>A sunny day in the park</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/windy.jpg' alt='NAME'>
+                </picture>
+                <p>A windy breeze through the trees</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/cloudy.jpg' alt='NAME'>
+                </picture>
+                <p>A cloudy day in the park</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/rain.jpg' alt='NAME'>
+                </picture>
+                <p>A rainy day in the park</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/hail.jpg' alt='NAME'>
+                </picture>
+                <p>Hail in the city</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/snow.jpg' alt='NAME'>
+                </picture>
+                <p>A snowy day in the park</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/fog.jpg' alt='NAME'>
+                </picture>
+                <p>A foggy day in the park</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/lightning.jpg' alt='NAME'>
+                </picture>
+                <p>Lightning over the farms</p>
+            </div>
+            <div class="gridItem">
+                <picture class="gridPic">
+                    <img src='images/placeholder-wide.png' data-src='images/tornado.jpg' alt='NAME'>
+                </picture>
+                <p>A tornado over the fields</p>
+            </div>
     </main>
     <footer>
         <p>© <span class="currentyear"></span> | Kylene Little | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
@@ -65,5 +101,6 @@
 <script src="js/todaysDate.js"></script>
 <script src="js/toggleMenu.js"></script>
 <script src="js/currentYear.js"></script>
+<script src="js/lazyLoad.js"></script>
 </body>
 </html>

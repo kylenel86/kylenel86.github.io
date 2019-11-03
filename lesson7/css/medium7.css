@@ -25,3 +25,12 @@
         display: block;
     }
 }
+#galleryGrid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridItem p {
+    font-size: .8em;
+}
+
+}

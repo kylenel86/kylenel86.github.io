@@ -117,6 +117,10 @@ main h1 {
     background-color:  #6E8898;
 }
 
+h2 {
+    color: #003776;
+}
+
 footer {
     bottom:0;
     left: 0;
@@ -135,21 +139,21 @@ footer {
     justify-content: center;
     grid-gap: 20px;
     margin-bottom: 20px;
-    width: 100%;
+    width: auto;
 }
 
 .gridItem {
     align-self: stretch;
     justify-self: center;
     padding: 5px;
-    background-color: #d6eefc;
+    background-color: #6E8898;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-radius: 0 0 10px 10px;
 }
 
 .gridItem picture img {
     width: 100%;
-    max-width: 400px;
+    max-width: auto;
 }
 
 .gridItem p {

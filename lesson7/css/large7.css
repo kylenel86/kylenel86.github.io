@@ -6,10 +6,8 @@
         }
        
     }
-    .gridpic {
+    .galleryGrid {
         grid-template-columns: 1fr 1fr 1fr;
-        border: 1px grey solid;
-        border-radius: 10px 10px 10px 10px;
 
     }
 

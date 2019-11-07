@@ -8,9 +8,9 @@ table, thead, tbody, tfoot, th, td {
  }
 caption {
     background-color: #7fb9c2;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
-    padding: .75em;
+    padding: 1em;
 }
 .goal {
     width: 100px;

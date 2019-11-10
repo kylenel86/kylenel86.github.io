@@ -45,9 +45,9 @@
 
         <fieldset>
                 <legend>Report Storm Information</legend>
-                <label class="storm">Date <input type="date" name="completeDate"></label>
-                    <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
-                        <datalist id="storm">
+                <label class="sbs">Date <input type="date" name="completeDate"></label>
+                    <label class="sbs">Storm Type:<input list="storms" id="stormtype" name="stormtype">
+                        <datalist id="storms">
                             <option value="Flash Flood">Flash Flood</option>
                             <option value="Hail">Hail</option>
                             <option value="Hurricaine">Hurricaine</option>
@@ -55,7 +55,7 @@
                             <option value="Tornado">Tornado</option>
                         </datalist>
                     </label>
-                    <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <label class="sbs">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">10</span>
                     </label>
                     <datalist id="marks">
@@ -70,16 +70,16 @@
                         <option value="9"></option>
                         <option value="10"></option>
                     </datalist>    
-                    <label class="storm"> Storm Region:<select name="region">
+                    <label class="sbs"> Storm Region:<select name="region">
                                 <option disabled="reigon">Please Select Region &#9662;</option>
                          <option value="preston">Preston</option>
                          <option value="sodaprings">Soda Springs</option>  
                          <option value="fishhaven">Fish Haven</option> 
                          </select>
                          <label class="storm">Are You in Danger?<br>
-                <label class="storm"><input type="radio" name="yes" value="yes"> Yes</label>
-                <label class="storm"><input type="radio" name="no" value="no"> No</label>
-                <label class="storm"><input type="radio" name="maybe" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="yes" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="no" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="maybe" value="maybe"> Maybe</label>
             </fieldset>
 
         <fieldset>

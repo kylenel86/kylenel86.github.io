@@ -132,7 +132,8 @@ form label.storm {
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #6E8898;
+    text-align: center;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

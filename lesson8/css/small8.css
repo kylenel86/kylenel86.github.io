@@ -93,13 +93,13 @@ main {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #003776;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445ba9;
+    color: #003776;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -107,7 +107,7 @@ form legend {
 form label.rep, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #6E8898;
     font-size: .8rem;
 }
 
@@ -124,7 +124,7 @@ form label.rep input, form label.rep select {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.storm, {
+form label.storm {
     display: block;
     padding: .75rem 0;
     color: #555;

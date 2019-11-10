@@ -46,7 +46,7 @@
         <fieldset>
                 <legend>Report Storm Information</legend>
                 <label class="storm">Date <input type="date" name="completeDate"></label>
-                    <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
+                    <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype"><br>
                         <datalist id="storms">
                             <option value="Flash Flood">Flash Flood</option>
                             <option value="Hail">Hail</option>
@@ -55,7 +55,7 @@
                             <option value="Tornado">Tornado</option>
                         </datalist>
                     </label>
-                    <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><br>
                     <span id="ratingvalue">10</span>
                     </label>
                     <datalist id="marks">
@@ -70,7 +70,7 @@
                         <option value="9"></option>
                         <option value="10"></option>
                     </datalist>    
-                    <label class="storm"> Storm Region:<select name="region">
+                    <label class="storm"> Storm Region:<select name="region"><br>
                                 <option disabled="">Please Select Region &#9662;</option>
                          <option value="preston">Preston</option>
                          <option value="sodaprings">Soda Springs</option>  

@@ -1,9 +1,23 @@
-@media only screen and (min-width: 35rem) 
+@media only screen and (min-width: 35em) {
 
-nav ul {margin-left: 2%;}
-nav ul li {width: auto;}
-nav ul li:first-child a {border-left: 1px solid #777;}
-nav ul li:last-child a {border-right: 1px solid #777;}
-nav ul li a{padding: .5rem 1rem;}
+    nav ul.hide {display:block;}
 
+    nav ul {display: flex;
+            justify-content: space-evenly;
+        }
+    nav ul.navigation li {
+        display: contents;
+    }    
 
+    nav ul.responsive li {
+        display: contents;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+
+    nav ul.navigation li:first-child {display:none; }
+    nav ul.responsive li:first-child {display:none; }
+}

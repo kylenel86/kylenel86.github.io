@@ -46,14 +46,14 @@
         <fieldset>
                 <legend>Report Storm Information</legend>
                 <label class="sbs">Date <input type="date" name="completeDate"></label>
-                    <label class="sbs">Storm Type:<input type="list" name="stormtype" list="stormlist">
-                        <datalist id="stormlist">
-                            <option value="Flash Flood">Flash Flood</option>
-                            <option value="Hail">Hail</option>
-                            <option value="Hurricaine">Hurricaine</option>
-                            <option value="Thunderstorm">Thunderstorm</option>
-                            <option value="Tornado">Tornado</option>
-                        </datalist>
+                <label class="top">Storm Type<input type="list" name="stormtype" list="stormlist"></label>
+                <datalist id="stormlist">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
                     </label>
                     <label class="sbs">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">10</span>

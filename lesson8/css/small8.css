@@ -6,7 +6,6 @@ body {
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
 }
-
 header, footer {
     margin: 0 auto;
     padding: 0.15rem;
@@ -29,7 +28,6 @@ header {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Quicksand', sans-serif;
-    align-content: center;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
@@ -153,7 +151,7 @@ form label.rep input:required:valid {
 }
 
 footer {
-    background-color: #ddd;
+    background-color: #003776;;
     padding: .5rem 2%;
     text-align: center;
 }

@@ -6,8 +6,10 @@
     <title>Storm Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" This is a page where people can report on storms">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize7.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small8.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium8.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large8.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize8.css"/>
 </head>
 <body> 
     <header>
@@ -35,7 +37,7 @@
      <form method="get" action="thanks.html">
          <fieldset>
            <legend>Who is Reporting?</legend>
-           <label class="top">First & Last Name* <input type="text" name="flname" required></label>
+           <label class="top">Full Name* <input type="text" name="flname" required></label>
            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
            <label class="top">Phone Number* <input type="tel" name="phone" required></label>
            <label class="top">Zip Code* <input type="tel" name="zipc" required></label>
@@ -46,11 +48,11 @@
                 <label class="storm">Date <input type="date" name="completeDate"></label>
                     <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
                         <datalist id="storms">
-                            <option value="Flash Flood">Flash Flood</option>
-                            <option value="Hail">Hail</option>
-                            <option value="Hurricaine">Hurricaine</option>
-                            <option value="Thunderstorm">Thunderstorm</option>
-                            <option value="Tornado">Tornado</option>
+                            <option value="flash flood">Flash Flood</option>
+                            <option value="hail">Hail</option>
+                            <option value="hurricaine">Hurricaine</option>
+                            <option value="thunderstorm">Thunderstorm</option>
+                            <option value="tornado">Tornado</option>
                         </datalist>
                     </label>
                     <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -68,7 +70,7 @@
                         <option value="9"></option>
                         <option value="10"></option>
                     </datalist>    
-                <select name="region">
+                    <label class="storm"> Storm Region:<select name="region">
                                 <option value="">Please Select Region &#9662;</option>
                          <option value="preston">Preston</option>
                          <option value="sodaprings">Soda Springs</option>  
@@ -81,7 +83,7 @@
 
         <fieldset>
             <legend>Additional Information or Comments</legend>
-            <label class="add">Details: <input type="text" name="details"></label>
+            <label class="add">Details: <input type="text" name="details" rows="10"></label>
             </fieldset>
 
           <fieldset>

@@ -29,6 +29,7 @@ header {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Quicksand', sans-serif;
+    align-content: center;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;

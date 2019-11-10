@@ -35,8 +35,7 @@
      <form method="get" action="thanks.html">
          <fieldset>
            <legend>Who is Reporting?</legend>
-           <label class="top">First Name* <input type="text" name="fname" required></label>
-           <label class="top">Last Name* <input type="text" name="lname" required></label>
+           <label class="top">First & Last Name* <input type="text" name="flname" required></label>
            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
            <label class="top">Phone Number* <input type="tel" name="phone" required></label>
            <label class="top">Zip Code* <input type="tel" name="zipc" required></label>
@@ -44,14 +43,36 @@
 
         <fieldset>
                 <legend>Report Storm Information</legend>
-                <label class="top">Date <input type="date" name="completeDate"></label>
-                <label class="top">Storm Type <input type="text" name="date"></label>
-                <label class="top">Storm Region
-                        <select name="subject">
+                <label class="storm">Date <input type="date" name="completeDate"></label>
+                    <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
+                        <datalist id="storms">
+                            <option value="Flash Flood">Flash Flood</option>
+                            <option value="Hail">Hail</option>
+                            <option value="Hurricaine">Hurricaine</option>
+                            <option value="Thunderstorm">Thunderstorm</option>
+                            <option value="Tornado">Tornado</option>
+                        </datalist>
+                    </label>
+                    <label class="storm">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10" step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">10</span>
+                    </label>
+                    <datalist id="marks">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>    
+                <select name="region">
                                 <option value="">Please Select Region &#9662;</option>
-                         <option value="software">Preston</option>
-                         <option value="creative">Soda Springs</option>  
-                         <option value="info">Fish Haven</option> 
+                         <option value="preston">Preston</option>
+                         <option value="sodaprings">Soda Springs</option>  
+                         <option value="fishhaven">Fish Haven</option> 
                 <div>Are You In Danger?</div>
                 <label class="dan"><input type="radio" name="yes" value="yes"> Yes</label>
                 <label class="dan"><input type="radio" name="no" value="no"> No</label>
@@ -79,5 +100,6 @@
 <script src="js/todaysDate.js"></script>
 <script src="js/toggleMenu.js"></script>
 <script src="js/currentYear.js"></script>
+<script src="js/range.js"></script>
 </body>
 </html>

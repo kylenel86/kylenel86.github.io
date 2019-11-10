@@ -117,57 +117,64 @@ nav ul {
 .responsive li {
     display: block;
 }
-
-main {
-    padding: 0px;
-    margin: 5px auto;
-    text-align: center; 
-    max-width: 750px;
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
 }
-main section {
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.rep, form div {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-}
-main h1 {
-    background-color:  #6E8898;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
 }
 
-.article, .contact {
-    display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-    border: solid white;
-    background-color: #6E8898;
-    padding: 5px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;   
-}
-
-.article p {
-width: 48%;
-}
-.weathersummary {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    line-height: .5;
-    padding: 5px;
-    color: #EAEAEA;
-    background: #6E8898;
-}
-
-.forcast, img.temp, img.mappreston{
-    display: none;
-}
-
-.article h2, .contacth2 {
+form label.rep input, form label.rep select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
     width: 100%;
-}    
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.storm {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.rep input:required {
+    border-left: red solid 6px;
+
+}
+
+form label.rep input:required:valid {
+    border-left: green solid 6px;
+}
 
 footer {
     bottom:0;

@@ -72,14 +72,14 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.rep, form div {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .8rem;
 }
 
-form label.top input, form label.top select {
+form label.rep input, form label.rep select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -92,7 +92,7 @@ form label.top input, form label.top select {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.sbs {
+form label.storm {
     display: block;
     padding: .75rem 0;
     color: #555;
@@ -109,25 +109,21 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form label.top input:required {
+form label.rep input:required {
     border-left: red solid 6px;
 
 }
 
-form label.top input:required:valid {
+form label.rep input:required:valid {
     border-left: green solid 6px;
 }
 
-/*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
 }
 
-
-
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;

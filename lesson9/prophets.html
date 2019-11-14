@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 CIT 230 Activity Prophets</title>
+    <meta name="description" content=" Activity for week 9 JSON Practice">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/prophets.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>Latter-day Prophets</h1>
+</header>
+<main>
+    <div class="cards">
+            const prophets = jsonObject['prophets'];
+            for (let i = 0; i < prophets.length; i++ ) {
+                let card = document.createElement('section');
+let h2 = document.createElement('h2');
+
+h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+
+card.appendChild(h2);
+
+document.querySelector('div.cards').appendChild(card);
+
+
+    </div>
+</main>
+<footer>
+    <p>© <span class="currentyear"></span> | Kylene Little | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+</footer>
+<script src="js/code.js"></script>    
+</body>
+</html>

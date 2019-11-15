@@ -26,4 +26,7 @@ fetch(requestURL)
       card.appendChild(dob);
       card.appendChild(bp);
       document.querySelector('div.cards').appendChild(card);
+
+      image.setAttribute('src', prophets[i].imageurl);
+    }
   });

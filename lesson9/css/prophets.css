@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    line-height: .65em;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Libre Baskerville', sans-serif;
+    padding: 0;
+    background-color: #eeeeee;
+    color: #000;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto; /*0 auto; this centers the page*/
+}
+
+header,
+footer {
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+}
+
+footer {
+    background-color: #6E8898;;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #184676;
+    
+}
+
+main {
+    font-size: 0.8rem;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+h1{
+    font-size: 2rem;
+    color: #184676;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+h2 {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    color:#184676;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    text-align: center;
+}
+
+section {
+    background-color: #3da5d9;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #2364aa;
+}
+
+img {
+    height: auto;
+    width: 50%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (min-width: 32.5em) {
+    
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        }
+
+    img {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 56em) {
+
+    .card {  /*is this correct? */
+        grid-template-columns: repeat(4, 1fr);
+        }
+}

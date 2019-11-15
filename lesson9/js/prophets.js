@@ -18,6 +18,6 @@ card.appendChild(h2);
 
 document.querySelector('div.cards').appendChild(card);
 
-image.setAttribute('src', prophets[i].imageurl);
+image.setAttribute('imageurl', prophets[i].imageurl);
   }
 });

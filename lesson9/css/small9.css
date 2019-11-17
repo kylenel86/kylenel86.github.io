@@ -11,11 +11,12 @@ header, footer {
     color: #EAEAEA;
 }
 
-/*header {
+header {
     display: flex;
     align-items: center;
     justify-content: center;
-}*/
+}
+
 .headings {
     display: flex;
     flex-direction: column;

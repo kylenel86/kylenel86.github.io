@@ -122,15 +122,43 @@ main h1 {
     color: #EAEAEA;
 }  
 
-div.towns {
-    margin: auto;
+main div.towns {
     display: grid;
+    grid-gap: 30px;
     grid-template-columns: 1fr;
+    transition: all is;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
 }
 
-.towns img {
-    padding: 20px;
+main div.towns section {
+    text-align: center;
+    border: 1px black solid;
+    background-color: #D6F49D;
+    padding: .5rem;
 }
+
+main div.towns section h2 {
+    color: #3E6990;
+    line-height: 1rem;
+}
+
+main div.towns section h5 {
+    color: #3E6990;
+    font-style: oblique; 
+}
+
+main div.towns section p {
+    color: #605F5E;
+}
+
+main div.towns img {
+    margin: auto;
+    box-shadow: 0 0 15px black;
+}
+
 
 
 footer {

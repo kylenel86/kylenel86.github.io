@@ -28,6 +28,7 @@ header {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Montserrat', sans-serif;
+    color: #EAEAEA;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
@@ -118,41 +119,8 @@ main section {
 }
 main h1 {
     background-color:  #6E8898;
-}
-
-.article, .contact {
-    display: flex;
-    flex-wrap: flex;
-    flex-direction: column;
-    border: solid white;
-    background-color: #6E8898;
-    padding: 5px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;   
-}
-
-.article p {
-width: 48%;
-}
-.weathersummary {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    line-height: .5;
-    padding: 5px;
     color: #EAEAEA;
-    background: #6E8898;
-}
-
-.forcast, img.temp, img.mappreston{
-    display: none;
-}
-
-.article h2, .contacth2 {
-    width: 100%;
-}    
+}  
 
 footer {
     bottom:0;

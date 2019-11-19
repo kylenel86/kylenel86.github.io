@@ -27,8 +27,7 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-family: 'Montserrat', sans-serif;
-    color: #EAEAEA;
+    font-family: 'Quicksand', sans-serif;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
@@ -36,22 +35,19 @@ header {
     margin-left: 20px;
 }
 
-.heroimg {
- position: relative;
+.forecast h3 {
+    margin: 0 auto;
+    text-align: center;
 }
 
-img.food , img.mappreston {
-    width: 38%;
-    margin: auto;
-}
+.foretable {
+    background-color: #6E8898;
+    margin: 2% 0;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    max-width: 1200px;
 
-img.prestonhi {
-    width:100%;
-}
-
-header img {
-    width: 80px;
-    height: auto;
 }
 
 nav ul {
@@ -119,8 +115,49 @@ main section {
 }
 main h1 {
     background-color:  #6E8898;
+}
+
+h2 {
+    color: #003776;
+}
+
+footer {
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:60px;
+    max-width: 80%;          
+  }
+
+  footer a {
     color: #EAEAEA;
-}  
+}
+
+#galleryGrid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 302px);
+    transition: all is;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gridItem {
+    align-self: stretch;
+    justify-self: center;
+    padding: 5px;
+    background-color: #d6eefc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 10px 10px;
+}
+
+.gridItem p {
+    padding: 0 10px;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 5px;
+} 
 
 .towns{
     display: grid;
@@ -148,21 +185,3 @@ main h1 {
   .towns p{
       padding: 5px;
   }
-  
-  nav{
-      margin-bottom:20px;
-  }
-  
-
-
-footer {
-    bottom:0;
-    left: 0;
-    right: 0;
-    height:60px;
-    max-width: 80%;          
-  }
-
-  footer a {
-    color: #EAEAEA;
-}

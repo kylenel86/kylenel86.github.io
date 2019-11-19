@@ -122,6 +122,17 @@ main h1 {
     color: #EAEAEA;
 }  
 
+div.towns {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.towns img {
+    padding: 20px;
+}
+
+
 footer {
     bottom:0;
     left: 0;

@@ -1,0 +1,189 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    background-color: #EAEAEA;
+    padding: 0;
+    margin: 0;
+}
+/* Small / Baseline view */
+header, footer {
+    margin: 0 auto;
+    padding: 0.15rem;
+    background-color: #003776;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #EAEAEA;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+.moto {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.heroimg {
+ position: relative;
+}
+
+img.food , img.mappreston {
+    width: 38%;
+    margin: auto;
+}
+
+img.prestonhi {
+    width:100%;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.forecast h3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foretable {
+    background-color: #6E8898;
+    margin: 2% 0;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    max-width: 1200px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.active a {
+    color: white;
+    background-color: #a3a0ab;
+}
+
+.navigation {
+    background-color:  #6E8898;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #1213;
+    color: #EAEAEA;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.rep, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.rep input, form label.rep select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.storm {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.rep input:required {
+    border-left: red solid 6px;
+
+}
+
+form label.rep input:required:valid {
+    border-left: green solid 6px;
+}
+
+footer {
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:60px;
+    max-width: 80%;          
+  }
+
+  footer a {
+    color: #EAEAEA;
+}

@@ -42,16 +42,16 @@
                 <source srcset="images/cit230week6lrg.jpg" media="(min-width: 1040px)">
                 <img src="images/cit230week6lrg.jpg" alt="Idaho green grass blue sky feild">
             </picture>
-        <div class="weathersummary">
-            <h3>Weather Summary</h3>
-            <hr>
-            <p>Currently: Sunny</p>
-            <p>Temperature: <span id="high">45 &deg; F</span></p>
-            <p>Humidity: 20%</p>
-            <p>Precipitation: 2 inches</p>
-            <p>Wind Speed: <span id="speed">6 mph</span></p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-        </div>
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="desc">Sunny</span><br>
+                    Current Temp: <span id="temp"></span>&#176;F<br>
+                    High: <span id="hightemp"></span> &#176;F<br>
+                    Wind Chill: <span id="chill"></span><br>
+                    Humidity: <span id="humidity"></span>%<br>
+                    Wind Speed: <span id="speed"></span> mph
+                </p>
+            </section>
     </div>
     <div class="forecast">
         <h3>5-Day Forecast</h3>

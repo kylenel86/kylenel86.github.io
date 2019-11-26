@@ -24,7 +24,7 @@ header {
     display: flex;
     flex-direction: column;
 }
-.headings h1,h2 {
+.headings h1,h2,h3 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Quicksand', sans-serif;
@@ -52,6 +52,32 @@ header img {
     width: 80px;
     height: auto;
 }
+
+.summary {
+    position: absolute;
+    width: 25%;
+    max-width: 200px;
+    min-width: 150px;
+    top: .8rem;
+    left: .8rem;
+    background-color:  #6E8898;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #003776;;
+    opacity: 1;
+    box-shadow: 0 0 30px #7b8596;
+
+}
+
+.summary h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 1rem;
+}
+
+.summary p {
+    font-size: .8rem;
+}
+
 
 .forecast h3 {
     margin: 0 auto;

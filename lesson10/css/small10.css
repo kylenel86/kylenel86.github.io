@@ -117,6 +117,22 @@ nav ul {
 .responsive li {
     display: block;
 }
+
+.contentbox {
+    background-color: #6E8898;;
+    margin: 2% 0;
+    padding: 2%;
+    display: flex;
+    max-width: 1200px;
+
+}
+
+.contentbox h3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;

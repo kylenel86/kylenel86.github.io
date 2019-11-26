@@ -24,7 +24,7 @@ header {
     display: flex;
     flex-direction: column;
 }
-.headings h1 {
+.headings h1,h2 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Quicksand', sans-serif;

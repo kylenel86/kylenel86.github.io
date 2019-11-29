@@ -78,6 +78,14 @@ header img {
     font-size: .8rem;
 }
 
+#pancakes{
+    display: none;
+    background-color: #6E8898;
+    color: #7b8596;
+    padding: 5px;
+    text-align: center;
+    margin:10px 0 10px 0;
+}
 
 .forecast h3 {
     margin: 0 auto;

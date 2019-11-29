@@ -123,7 +123,7 @@ main h1 {
 
 .article, .contact {
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     border: solid white;
     background-color: #6E8898;

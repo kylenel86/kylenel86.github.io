@@ -24,11 +24,13 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 .headings h1,h2,h3 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Quicksand', sans-serif;
 }
+
 .moto {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
@@ -81,7 +83,9 @@ header img {
 #pancakes{
     display: none;
     background-color: #6E8898;
-    color: #7b8596;
+    color: #EAEAEA;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
     padding: 5px;
     text-align: center;
     margin:10px 0 10px 0;

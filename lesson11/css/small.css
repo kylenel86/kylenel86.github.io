@@ -121,10 +121,10 @@ main section {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
-main h1 {
+//*main h1 {
     background-color:  #6E8898;
     color: #EAEAEA;
-}  
+} *// 
 
 .towns{
     display: grid;
@@ -147,101 +147,3 @@ main h1 {
   .towns p{
       padding: 5px;
   }
-
-  #galleryGrid {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, 302px);
-    transition: all is;
-    align-content: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.gridItem {
-    align-self: stretch;
-    justify-self: center;
-    padding: 5px;
-    background-color: #d6eefc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    border-radius: 0 0 10px 10px;
-}
-
-.gridItem p {
-    padding: 0 10px;
-    font-style: italic;
-    font-size: 1em;
-    line-height: 5px;
-}
-
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #003776;
-    border-radius: 10px;
-    padding: .5rem 2%;
-}
-
-form legend {
-    color: #003776;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
-
-form label.rep, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #6E8898;
-    font-size: .8rem;
-}
-
-form label.rep input, form label.rep select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: solid #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #6E8898;
-    text-align: center;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form label.rep input:required {
-    border-left: red solid 6px;
-
-}
-
-form label.rep input:required:valid {
-    border-left: green solid 6px;
-}
-
-footer {
-    background-color: #003776;;
-    padding: .5rem 2%;
-    text-align: center;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}

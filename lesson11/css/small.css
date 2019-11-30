@@ -143,3 +143,29 @@ main h1 {
   .towns p{
       padding: 5px;
   }
+
+  #galleryGrid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 302px);
+    transition: all is;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gridItem {
+    align-self: stretch;
+    justify-self: center;
+    padding: 5px;
+    background-color: #d6eefc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 10px 10px;
+}
+
+.gridItem p {
+    padding: 0 10px;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 5px;
+}

@@ -27,7 +27,8 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAEAEA;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
@@ -35,19 +36,22 @@ header {
     margin-left: 20px;
 }
 
-.forecast h3 {
-    margin: 0 auto;
-    text-align: center;
+.heroimg {
+ position: relative;
 }
 
-.foretable {
-    background-color: #6E8898;
-    margin: 2% 0;
-    text-align: center;
-    padding: 2%;
-    display: flex;
-    max-width: 1200px;
+img.food , img.mappreston {
+    width: 38%;
+    margin: auto;
+}
 
+img.prestonhi {
+    width:100%;
+}
+
+header img {
+    width: 80px;
+    height: auto;
 }
 
 nav ul {
@@ -56,7 +60,6 @@ nav ul {
     padding: 0;
     overflow: hidden;
 }
-
 
 .active a {
     color: white;
@@ -100,6 +103,7 @@ nav ul {
     display: block;
 }
 
+
 main {
     padding: 0px;
     margin: 5px auto;
@@ -115,7 +119,8 @@ main section {
 }
 main h1 {
     background-color:  #6E8898;
-}
+    color: #EAEAEA;
+} 
 
 h2 {
     color: #003776;

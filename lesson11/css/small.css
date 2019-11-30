@@ -121,10 +121,10 @@ main section {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
-/*main h1 {
+main h1 {
     background-color:  #6E8898;
     color: #EAEAEA;
-} */
+} 
 
 .towns{
     display: grid;

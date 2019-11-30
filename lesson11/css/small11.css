@@ -61,7 +61,6 @@ nav ul {
     overflow: hidden;
 }
 
-
 .active a {
     color: white;
     background-color: #a3a0ab;
@@ -103,6 +102,7 @@ nav ul {
 .responsive li {
     display: block;
 }
+
 
 main {
     padding: 0px;

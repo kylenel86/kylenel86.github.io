@@ -4,11 +4,6 @@
     padding: .6rem 1rem;
     
         }
-		header, nav, main, footer {
-			max-width: 64rem;
-			margin:auto;
-		}
-	
 	
 	form label.sbs {
 		padding: .4rem 0;

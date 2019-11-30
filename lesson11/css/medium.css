@@ -1,9 +1,35 @@
-@media only screen and (min-width: 32.5em) {
-    
-    .towns {
-        grid-template-columns: 1fr 1fr;
-     }
-    
-    img {
-        width: 45%;
-    }}
+@media only screen and (min-width: 35em) {
+
+    nav ul.hide {display:block;}
+
+    nav ul {display: flex;
+            justify-content: space-evenly;
+        }
+    nav ul.navigation li {
+        display: contents;
+    }    
+
+    nav ul.responsive li {
+        display: contents;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+
+    nav ul.navigation li:first-child {display:none; }
+    nav ul.responsive li:first-child {display:none;}
+  
+    .forcast, img.temp, img.mappreston{
+        display: block;
+    }
+}
+#galleryGrid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridItem p {
+    font-size: .8em;
+}
+

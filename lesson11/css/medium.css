@@ -19,12 +19,9 @@
     }
 
     nav ul.navigation li:first-child {display:none; }
-    nav ul.responsive li:first-child {display:none;}
-  
-    .forcast, img.temp, img.mappreston{
-        display: block;
-    }
+    nav ul.responsive li:first-child {display:none; }
 }
+
 #galleryGrid {
     grid-template-columns: 1fr 1fr;
 }

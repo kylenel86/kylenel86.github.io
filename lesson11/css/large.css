@@ -1,25 +1,35 @@
-.towns { 
-	grid-template-columns: 1fr 1fr 1fr;
-}
+	@media only screen and (min-width: 64rem) {
 
-img {
-	width: 60%;
-}
-
-@media only screen and (min-width: 64rem) {
-
-    nav ul li a {
-    padding: .6rem 1rem;
-    
-        }
-       
-    }
-    #galleryGrid {
-        grid-template-columns: 1fr 1fr 1fr;
-
-    }
-
-    .gridItem:hover {
-        box-shadow: 0 0 30px #333;
-        
-    }
+		header, nav, main, footer {
+			max-width: 64rem;
+			margin:auto;
+		}
+	
+	
+	form label.sbs {
+		padding: .4rem 0;
+	}
+	
+	nav ul li a {
+		padding: .6rem 1rem;
+		
+			}
+		   
+		}
+		#galleryGrid {
+			grid-template-columns: 1fr 1fr 1fr;
+	
+		}
+	
+		.gridItem:hover {
+			box-shadow: 0 0 30px #333;
+			
+		}
+		.towns { 
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		
+		img {
+			width: 60%;
+		}
+	

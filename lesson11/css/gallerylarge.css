@@ -8,10 +8,16 @@
     }
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
-
+        grid-template-rows: auto;
+        margin: 0;
+        grid-gap: 20px;
     }
 
-    .gallery image:hover {
-        box-shadow: 0 0 30px #333;
-        
+    figure {
+        margin: 20px 10px
     }
+
+    figure:hover {
+        box-shadow: 10px 5px 15px #000000;
+    }
+

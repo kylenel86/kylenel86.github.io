@@ -140,12 +140,27 @@ img[data-src]{
     filter:blur(.5em);
 }
 
-.gallery img{
-    width: 100%;
-    filter: blur(0em);
-    transition-duration: .5s;
+main {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: auto;
 }
 
-.gallery img:hover {box-shadow:0 0 50px #083047;
-    margin: auto;
+figure {
+    box-shadow: 10px 5px 15px #787878;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .8rem;
+    margin: 2px 5px;
+}
+
+.gallery img {
+    max-width: 100%;
 }

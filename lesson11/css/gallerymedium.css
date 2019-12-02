@@ -25,12 +25,13 @@
         display: block;
     }
 }
-.gallery {
-    grid-template-columns: 1fr 1fr;
-
+figure {
+    margin: 20px 30px
 }
 
-.gallery image:hover {
-    box-shadow: 0 0 30px #333;
-    
+.gallery {
+    display: grid;
+    max-width:100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }

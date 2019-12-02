@@ -27,8 +27,7 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-family: 'Montserrat', sans-serif;
-    color: #EAEAEA;
+    font-family: 'Quicksand', sans-serif;
 }
 .moto {
     font-family: 'Libre Baskerville', serif;
@@ -47,11 +46,6 @@ img.food , img.mappreston {
 
 img.prestonhi {
     width:100%;
-}
-
-header img {
-    width: 80px;
-    height: auto;
 }
 
 nav ul {

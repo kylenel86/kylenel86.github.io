@@ -19,14 +19,10 @@
     }
 
     nav ul.navigation li:first-child {display:none; }
-    nav ul.responsive li:first-child {display:none; }
-}
-
-#galleryGrid {
-    grid-template-columns: 1fr 1fr;
-}
-
-.gridItem p {
-    font-size: .8em;
+    nav ul.responsive li:first-child {display:none;}
+  
+    .forcast, img.temp, img.mappreston{
+        display: block;
+    }
 }
 

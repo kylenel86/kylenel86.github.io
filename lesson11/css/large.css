@@ -4,26 +4,5 @@
     padding: .6rem 1rem;
     
         }
-	
-	form label.sbs {
-		padding: .4rem 0;
-	}
-		   
-		}
-		#galleryGrid {
-			grid-template-columns: 1fr 1fr 1fr;
-	
-		}
-	
-		.gridItem:hover {
-			box-shadow: 0 0 30px #333;
-			
-		}
-		.towns { 
-			grid-template-columns: 1fr 1fr 1fr;
-		}
-		
-		img {
-			width: 60%;
-		}
-	
+       
+    }

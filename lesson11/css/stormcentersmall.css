@@ -93,6 +93,10 @@ main {
     min-height: 20rem;
 }
 
+h2 {
+    color: #003776;
+    text-align: center;
+}
 
 form fieldset {
     margin: 2rem 0;

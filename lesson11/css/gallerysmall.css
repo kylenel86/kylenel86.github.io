@@ -126,18 +126,19 @@ h2 {
     color: #003776;
 }
 
-footer {
-	background-color: #003776;
-	display: flex;
-	color: #fff;
-	justify-content: center;
-	text-align: center;
-	padding: 15px;
-	max-width: 470px;
-	margin: auto
-}
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 
-  footer a {
+  footer {
+    color: white;
+    background-color: #003776;
+    padding: 18px;
+  }
+
+footer a {
     color: #EAEAEA;
 }
 

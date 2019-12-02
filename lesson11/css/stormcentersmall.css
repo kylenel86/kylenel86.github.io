@@ -127,14 +127,17 @@ h2 {
 }
 
 footer {
-    bottom:0;
-    left: 0;
-    right: 0;
-    height:60px;
-    max-width: 80%;          
-  }
+	background-color: #003776;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	text-align: center;
+	padding: 15px;
+	max-width: 470px;
+	margin: auto
+}
 
-  footer a {
+footer a {
     color: #EAEAEA;
 }
 

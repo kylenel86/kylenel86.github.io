@@ -126,12 +126,6 @@ h2 {
     color: #003776;
 }
 
-.site-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
   footer {
     color: white;
     background-color: #003776;

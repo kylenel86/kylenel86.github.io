@@ -24,5 +24,11 @@
     .forcast, img.temp, img.mappreston{
         display: block;
     }
-}
+    .towns {
+        grid-template-columns: 1fr 1fr;
+     }
+    
+    img {
+        width: 45%;
+    }}
 

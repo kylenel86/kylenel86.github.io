@@ -3,12 +3,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    font-size: 16px;
     font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
     background-color: #EAEAEA;
     padding: 0;
     margin: 0;
 }
+/* Small / Baseline view */
 header, footer {
     margin: 0 auto;
     padding: 0.15rem;
@@ -38,13 +39,25 @@ header {
     margin-left: 20px;
 }
 
+.heroimg {
+ position: relative;
+}
+
+img.food , img.mappreston {
+    width: 38%;
+    margin: auto;
+}
+
+img.prestonhi {
+    width:100%;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-
 
 .active a {
     color: white;
@@ -88,14 +101,38 @@ nav ul {
     display: block;
 }
 
+
 main {
-    padding: 0 2%;
-    min-height: 20rem;
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center; 
+    max-width: 750px;
 }
+main section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+main h1 {
+    background-color:  #6E8898;
+    color: #EAEAEA;
+} 
 
 h2 {
     color: #003776;
     text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: #003776;
+    padding: 18px;
+  }
+
+footer a {
+    color: #EAEAEA;
 }
 
 form fieldset {
@@ -156,12 +193,6 @@ form label.rep input:required {
 
 form label.rep input:required:valid {
     border-left: green solid 6px;
-}
-
-footer {
-    background-color: #003776;;
-    padding: .5rem 2%;
-    text-align: center;
 }
 
 .clearfix:after {

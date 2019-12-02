@@ -37,8 +37,14 @@
             Preston Page
         </h2>
     
-        <div id="hero">
-            <img id="heroimage" src="images/heropreston.jpg" alt="Preston Idaho Landscape">
+        <picture id = "heropic">
+                <img id="heroimg" src="images/heropreston1000.jpg" alt="snow with house"
+                srcset="images/heropreston1000.jpg,
+                        images/heropreston700.jpg,
+                        images/heropreston400.jpg"
+                sizes = "100vw"
+                >              
+            </picture>
             <section class="summary">
                     <h3>Weather Summary</h3>
                     <p>Currently: <span id="desc">Sunny</span><br>
@@ -81,6 +87,9 @@
         <div class="contact">
             <h2>Contact</h2>
             <img src="images/PrestonIDmap.png" alt="map of Preston Idaho" class="mappreston">
+            <br>
+             <p>Contact Information<br> 200 North 100 East <br> Preston, ID 83263<br> 555.555.5555<br>eastidweather@gmail.com
+            </p>
         </div>
         <div class="towns"></div>
 <footer>

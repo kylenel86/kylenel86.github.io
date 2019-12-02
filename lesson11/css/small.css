@@ -24,13 +24,12 @@ header {
     display: flex;
     flex-direction: column;
 }
-
-.headings h1,h2,h3 {
+.headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAEAEA;
 }
-
 .moto {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
@@ -53,57 +52,6 @@ img.prestonhi {
 header img {
     width: 80px;
     height: auto;
-}
-
-.summary {
-    position: absolute;
-    width: 25%;
-    max-width: 200px;
-    min-width: 150px;
-    top: .8rem;
-    left: .8rem;
-    background-color:  #6E8898;
-    padding: 0.2rem 0.8rem;
-    border: 1px solid #003776;;
-    opacity: 1;
-    box-shadow: 0 0 30px #7b8596;
-
-}
-
-.summary h3 {
-    text-align: center;
-    text-decoration-line: underline;
-    font-size: 1rem;
-}
-
-.summary p {
-    font-size: .8rem;
-}
-
-#pancakes{
-    display: none;
-    background-color: #6E8898;
-    color: #EAEAEA;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    padding: 5px;
-    text-align: center;
-    margin:10px 0 10px 0;
-}
-
-.forecast h3 {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.foretable {
-    background-color: #6E8898;
-    margin: 2% 0;
-    text-align: center;
-    padding: 2%;
-    display: flex;
-    max-width: 1200px;
-
 }
 
 nav ul {
@@ -156,79 +104,23 @@ nav ul {
     display: block;
 }
 
-.contentbox {
-    background-color: #6E8898;;
-    margin: 2% 0;
-    padding: 2%;
-    display: flex;
-    max-width: 1200px;
-
+main {
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center; 
+    max-width: 750px;
 }
-
-.contentbox h3 {
-    margin: 0 auto;
-    text-align: center;
-}
-
-
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-}
-
-form legend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
-
-form label.rep, form div {
+main section {
     display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
 }
-
-form label.rep input, form label.rep select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: solid #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-form label.storm {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #9c2c13;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form label.rep input:required {
-    border-left: red solid 6px;
-
-}
-
-form label.rep input:required:valid {
-    border-left: green solid 6px;
-}
+main h1 {
+    background-color:  #6E8898;
+    color: #EAEAEA;
+}  
 
 .towns{
     display: grid;
@@ -251,15 +143,3 @@ form label.rep input:required:valid {
   .towns p{
       padding: 5px;
   }
-  
-footer {
-    bottom:0;
-    left: 0;
-    right: 0;
-    height:60px;
-    max-width: 80%;          
-  }
-
-  footer a {
-    color: #EAEAEA;
-}

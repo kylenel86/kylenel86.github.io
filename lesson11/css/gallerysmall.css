@@ -131,16 +131,6 @@ footer a {
     color: #EAEAEA;
 }
 
-.gallery {display: grid;
-    grid-template-columns: 1fr;
-    margin: auto;
-    width: 100%;
-}
-
-img[data-src]{
-    filter:blur(.5em);
-}
-
 main {
     justify-content: center;
     display: grid;

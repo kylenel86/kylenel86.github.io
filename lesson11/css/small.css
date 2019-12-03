@@ -173,6 +173,11 @@ nav ul {
     display: block;
 }
 
+.heroimg {
+    width: 400px;
+    height: 300px;
+}
+
 h2 {
     color:#003776;
     text-align: center; 

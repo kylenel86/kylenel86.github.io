@@ -14,8 +14,11 @@
 
         #summary {
             position: absolute;
-            top: 30px;
-            left: 100px;
+            padding:15px;
+            top:40px;
+            left:60px;
+            border: 0px;
+            border-radius: 3px;
         }
         
         .food {

@@ -104,6 +104,11 @@ nav ul {
     display: block;
 }
 
+h1 {
+    color:#003776;
+    text-align: center; 
+}
+
 main {
     padding: 0px;
     margin: 5px auto;

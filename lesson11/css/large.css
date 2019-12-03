@@ -11,5 +11,10 @@
         img {
             width: 60%;
         }
+
+        #summary {
+            position: absolute;
+            top: 30px;
+            left: 100px;
        
     }

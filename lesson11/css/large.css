@@ -22,8 +22,8 @@
         }
         
         .food {
-            height: 229px;
-            width: 168px;
+            height: 300px;
+            width: auto;
             margin: auto;
         }
 

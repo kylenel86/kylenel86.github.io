@@ -95,6 +95,16 @@ header img {
 
 }
 
+.prestonevents, .sodaspringsevents, .fishhavenevents {
+    border: solid 1px #EAEAEA;
+    margin: 1em;
+    padding: 1em;
+    background-color: #6E8898;
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;

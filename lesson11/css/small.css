@@ -116,6 +116,15 @@ header img {
     display: flex;
 }
 
+.article h2 {
+    text-align: center;
+}
+
+.article img {
+    width: 300px;
+    height: auto;
+}
+
 .contact p {
     text-align: center;
     font-family: 'Quicksand', serif;

@@ -85,6 +85,12 @@ nav ul {
     display: block;
 }
 
+.h2 {
+    color: #003776;
+    align-items: center;
+
+}
+
 main {
     padding: 0 2%;
     min-height: 20rem;

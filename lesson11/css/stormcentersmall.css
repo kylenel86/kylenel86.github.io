@@ -5,6 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
+    background-color: #EAEAEA;
 }
 header, footer {
     margin: 0 auto;

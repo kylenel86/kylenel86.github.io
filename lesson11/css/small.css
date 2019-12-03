@@ -177,9 +177,6 @@ main h1 {
     background-color:  #6E8898;
     color: #EAEAEA;
 }  
-
-.summary
-
 .towns{
     display: grid;
     grid-gap: .25rem;
@@ -201,3 +198,5 @@ main h1 {
   .towns p{
       padding: 5px;
   }
+
+  

@@ -79,43 +79,6 @@ header img {
     font-size: .8rem;
 }
 
-.forecast {
-    position: absolute;
-    width: 25%;
-    max-width: 200px;
-    min-width: 150px;
-    top: .8rem;
-    left: .8rem;
-    background-color:  #6E8898;
-    color: #EAEAEA;
-    padding: 0.2rem 0.8rem;
-    border: 1px solid #003776;;
-    opacity: 1;
-    box-shadow: 0 0 30px #7b8596;
-
-}
-
-.forecast h3 {
-    text-align: center;
-    text-decoration-line: underline;
-    font-size: 1rem;
-}
-
-.forecast p {
-    font-size: .8rem;
-}
-
-#pancakes{
-    display: none;
-    background-color: #6E8898;
-    color: #EAEAEA;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    padding: 5px;
-    text-align: center;
-    margin:10px 0 10px 0;
-}
-
 .forecast h3 {
     margin: 0 auto;
     text-align: center;
@@ -123,6 +86,7 @@ header img {
 
 .foretable {
     background-color: #6E8898;
+    color:#EAEAEA;
     margin: 2% 0;
     text-align: center;
     padding: 2%;

@@ -3,15 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Preston Page of Weather Site Continued</title>
+    <title>Preton Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" This is the main page in the Preston tab with added elements">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize10.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/small10.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/medium10.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/large10.css" />
+    <meta name="description" content=" This is a weather page on Preston ID ">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
 </head>
-<body onload="newChill()"> 
+<body> 
     <header>
         <img src="images/rsz_1rsz_1274769-256.png" alt="Logo with sun behind cloud">
         <section class="headings">
@@ -25,71 +25,78 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="https://kylenel86.github.io/lesson11/index.html">Home</a></li>
-            <li class="active"><a href="https://kylenel86.github.io/lesson10/preston.html">Preston</a></li> 
+            <li class="active"><a href="https://kylenel86.github.io/lesson11/preston.html">Preston</a></li> 
             <li><a href="https://kylenel86.github.io/lesson11/sodasprings.html">Soda Springs</a></li>   
             <li><a href="https://kylenel86.github.io/lesson11/fishhaven.html">Fish Haven</a></li>
-            <li><a href="https://kylenel86.github.io/lesson8/stormcenter.html">Strom Center</a></li> 
-            <li><a href="https://kylenel86.github.io/lesson7/gallery.html">Gallery</a></li>       
+            <li><a href="https://kylenel86.github.io/lesson11/stormcenter.html">Storm Center</a></li> 
+            <li><a href="https://kylenel86.github.io/lesson11/gallery.html">Gallery</a></li>        
         </ul>
     </nav>
-    <span id= "pancakes"></span>
-<main>
-    <h2><span id="page"></span>Preston, Idaho</h2>
-    <div class="heroimg">
-            <picture>
-                <source srcset="images/cit230week6sml.jpg" media="(max-width: 599px)">
-                <source srcset="images/cit230week6med.jpg" media="(min-width: 600px) and (max-width:1039px)">
-                <source srcset="images/cit230week6lrg.jpg" media="(min-width: 1040px)">
-                <img src="images/cit230week6lrg.jpg" alt="Idaho green grass blue sky feild">
+    <main>
+        <h2>
+            Preston Page
+        </h2>
+    
+        <picture id = "heropic">
+                <img id="heroimg" src="images/heropreston1000.jpg" alt="snow with house"
+                srcset="images/heropreston1000.jpg,
+                        images/heropreston700.jpg,
+                        images/heropreston400.jpg"
+                sizes = "100vw"
+                >              
             </picture>
             <section class="summary">
-                <h3>Weather Summary</h3>
-                <p>Currently: <span id="desc">Sunny</span><br>
-                    Current Temp: <span id="temp"></span>&#176;F<br>
-                    High: <span id="hightemp"></span> &#176;F<br>
-                    Wind Chill: <span id="chill"></span><br>
-                    Humidity: <span id="humidity"></span>%<br>
-                    Wind Speed: <span id="speed"></span> mph
-                </p>
-            </section>
-    </div>
-    <div class="contentbox forecast">
-        <h3>5-Day Forecast</h3>
-        <table class="foretable">
-            <tr>
-                <th class="forehead">Mon</th>
-                <th class="forehead">Tue</th>
-                <th class="forehead">Wed</th>
-                <th class="forehead">Thu</th>
-                <th class="forehead">Fri</th>
-            </tr>
-            <tr>
-                <td class="tablerow"></td>
-                <td class="tablerow"></td>
-                <td class="tablerow"></td>
-                <td class="tablerow"></td>
-                <td class="tablerow"></td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <h2>Preston Local Events</h2>
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="desc">Sunny</span><br>
+                        Current Temp: <span id="temp"></span>&#176;F<br>
+                        High: <span id="hightemp"></span> &#176;F<br>
+                        Wind Chill: <span id="chill"></span><br>
+                        Humidity: <span id="humidity"></span>%<br>
+                        Wind Speed: <span id="speed"></span> mph
+                    </p>
+                </section>
+        </div>
+        <div class="contentbox forecast">
+            <h3>5-Day Forecast</h3>
+            <table class="foretable">
+                <tr>
+                    <th class="forehead">Mon</th>
+                    <th class="forehead">Tue</th>
+                    <th class="forehead">Wed</th>
+                    <th class="forehead">Thu</th>
+                    <th class="forehead">Fri</th>
+                </tr>
+                <tr>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+        <h2>Preston Local events</h2>
             <div class="prestonevents">
-         </div>
-    <div class="article">
-        <h2>Article</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a mi ut felis rutrum consectetur sed eget turpis. 
-            Praesent urna est, convallis at laoreet ac, tempus id quam. Sed ac lacus vehicula, euismod mi a, dapibus ipsum. 
-            Etiam ut magna quam. Fusce ac pulvinar metus, vel varius ligula. Maecenas ipsum neque, placerat suscipit vehicula quis, 
-            porta eget enim. Maecenas luctus venenatis purus, et interdum risus dictum vitae. Quisque nec facilisis felis, ac sagittis purus. 
-            Quisque eu purus ac enim congue semper non sit amet est.</p>                
-        <img src="images/foodarticleph.jpg" alt="foodtabledisplay" class="food">
-    </div>
-    <div class="contact">
-        <h2>Contact</h2>
-        <img src="images/PrestonIDmap.png" alt="map of Preston Idaho" class="mappreston">
-    </div>
-</main>
+        
+            </div>
+        <div class="article">
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a mi ut felis rutrum consectetur sed eget turpis. 
+                Praesent urna est, convallis at laoreet ac, tempus id quam. Sed ac lacus vehicula, euismod mi a, dapibus ipsum. 
+                Etiam ut magna quam. Fusce ac pulvinar metus, vel varius ligula. Maecenas ipsum neque, placerat suscipit vehicula quis, 
+                porta eget enim. Maecenas luctus venenatis purus, et interdum risus dictum vitae. Quisque nec facilisis felis, ac sagittis purus. 
+                Quisque eu purus ac enim congue semper non sit amet est.</p>                
+            <img src="images/foodarticleph.jpg" alt="foodtabledisplay" class="food">
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <img src="images/PrestonIDmap.png" alt="map of Preston Idaho" class="mappreston">
+            <br>
+             <p>Contact Information<br> 200 North 100 East <br> Preston, ID 83263<br> 555.555.5555<br>eastidweather@gmail.com
+            </p>
+        </div>
+        <div class="towns"></div>
 <footer>
     <p>© <span class="currentyear"></span> | Kylene Little | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
 </footer>

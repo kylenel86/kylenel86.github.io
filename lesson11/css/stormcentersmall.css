@@ -85,10 +85,9 @@ nav ul {
     display: block;
 }
 
-.h2 {
+h2 {
     color: #003776;
-    align-items: center;
-
+    text-align: center;
 }
 
 main {

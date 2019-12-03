@@ -13,7 +13,7 @@
         }
 
         #summary {
-            position: absolute;
+            position: relative;
             top: 30px;
             left: 100px;
         }

@@ -18,7 +18,8 @@
             left: 100px;
         }
         img.food , img.mappreston {
-            width: 100%;
+            height: 300px;
+            width: 400px;
             margin: auto;
         }
     }

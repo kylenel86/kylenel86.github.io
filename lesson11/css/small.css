@@ -106,6 +106,17 @@ header img {
     flex-direction: column-reverse;
 }
 
+.article {
+    border: solid 2px #003776;
+    margin: 1em;
+    padding: 1em;
+    background-color: #6E8898;
+    color: #EAEAEA;
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;

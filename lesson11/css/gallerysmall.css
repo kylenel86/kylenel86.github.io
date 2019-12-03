@@ -155,3 +155,9 @@ figcaption {
 .gallery img {
     max-width: 100%;
 }
+
+footer {
+    background-color: #003776;;
+    padding: .5rem 2%;
+    text-align: center;
+}

@@ -189,4 +189,10 @@ main h1 {
       padding: 5px;
   }
 
+  footer {
+    background-color: #003776;;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
   

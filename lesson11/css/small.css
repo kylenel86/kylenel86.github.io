@@ -62,6 +62,7 @@ header img {
     top: .8rem;
     left: .8rem;
     background-color:  #6E8898;
+    color: #EAEAEA;
     padding: 0.2rem 0.8rem;
     border: 1px solid #003776;;
     opacity: 1;
@@ -76,6 +77,32 @@ header img {
 }
 
 .summary p {
+    font-size: .8rem;
+}
+
+.forecast {
+    position: absolute;
+    width: 25%;
+    max-width: 200px;
+    min-width: 150px;
+    top: .8rem;
+    left: .8rem;
+    background-color:  #6E8898;
+    color: #EAEAEA;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #003776;;
+    opacity: 1;
+    box-shadow: 0 0 30px #7b8596;
+
+}
+
+.forecast h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 1rem;
+}
+
+.forecast p {
     font-size: .8rem;
 }
 

@@ -125,16 +125,6 @@ h2 {
     text-align: center;
 }
 
-footer {
-    color: white;
-    background-color: #003776;
-    padding: 18px;
-  }
-
-footer a {
-    color: #EAEAEA;
-}
-
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #003776;
@@ -193,6 +183,16 @@ form label.rep input:required {
 
 form label.rep input:required:valid {
     border-left: green solid 6px;
+}
+
+footer {
+    color: white;
+    background-color: #003776;
+    padding: 18px;
+  }
+
+footer a {
+    color: #EAEAEA;
 }
 
 .clearfix:after {

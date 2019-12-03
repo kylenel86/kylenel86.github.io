@@ -18,7 +18,7 @@ for (let i = 0; i < towns.length; i++ ) {
     let heading = document.createElement("h2");
     let events = document.createElement("h4");
    
-    heading.textContent = 'Local EventS';
+    heading.textContent = 'Local Events';
     events.textContent = towns[i].events;
 
     fillCard.appendChild(heading);

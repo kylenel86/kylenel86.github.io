@@ -41,8 +41,7 @@ header {
 }
 
 img.food , img.mappreston {
-    width: 38%;
-    margin: auto;
+    display:none;
 }
 
 img.prestonhi {

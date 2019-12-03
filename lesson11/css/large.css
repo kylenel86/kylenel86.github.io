@@ -17,9 +17,16 @@
             top: 30px;
             left: 100px;
         }
-        img.food , img.mappreston {
-            height: 300px;
-            width: 400px;
+        img.food {
+            height: 229px;
+            width: 168px;
             margin: auto;
+        }
+
+        img.mappreston{
+            height: 300px;
+            width: 300x;
+            margin: auto;
+
         }
     }

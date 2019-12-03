@@ -101,7 +101,7 @@ header img {
     padding: 1em;
     background-color: #6E8898;
     color: #EAEAEA;
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column-reverse;
 }

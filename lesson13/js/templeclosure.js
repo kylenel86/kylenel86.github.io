@@ -16,7 +16,7 @@ for (let i = 0; i < templeclosure.length; i++ ) {
     let closure = document.createElement("h4");
    
     heading.textContent = 'Temple Closure Dates';
-    events.textContent = templeclosure[i].closure;
+    closure.textContent = templeclosure[i].closure;
 
     fillCard.appendChild(heading);
     fillCard.appendChild(even);

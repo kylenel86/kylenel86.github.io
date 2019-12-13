@@ -9,20 +9,19 @@ fetch(requestURL)
 
 const templeclosure = jsonObject["closure dates"];
 
-for (let i = 0; i < towns.length; i++ ) {
+for (let i = 0; i < templeclosure.length; i++ ) {
 
-    if (towns[i].name== "Los Angeles California"){
+    if (templeclosure[i].name == "Los Angeles California" || templeclosure[i].name == "Newport Beach California" || templeclosure[i].name == "Redlands California" || templeclosure[i].name == "San Diego California")
 
-    let closure dates = document.createElement("h4");
+    let closure = document.createElement("h4");
    
-    heading.textContent = 'Local Events';
-    events.textContent = towns[i].events;
+    heading.textContent = 'Temple Closure Dates';
+    events.textContent = templeclosure[i].closure;
 
     fillCard.appendChild(heading);
-    fillCard.appendChild(events);
+    fillCard.appendChild(even);
     card.appendChild(fillCard);
     
-    document.querySelector('div.fishhavensevents').appendChild(card);
-   }
+    document.querySelector('div.templecl').appendChild(card);
 }
 });

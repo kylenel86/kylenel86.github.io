@@ -2,7 +2,7 @@
     "templeclosure" : [
     {
       "name": "Los Angeles California",
-      "closure dates" : [
+      "closure" : [
         "2019",
         "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
         "Tuesday, 31 December 2019",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Newport Beach California",
-      "closure dates" : [
+      "closure" : [
         "2019",
         "Tuesday, 24 December 2019",
         "Wednesday, 25 December 2019",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Redlands California",
-      "closure dates" : [
+      "closure" : [
         "2019",
         "Tuesday, 24 December 2019",
         "Wednesday, 25 December 2019",
@@ -63,7 +63,7 @@
     },
     {
       "name": "San Diego California",
-      "closure dates" : [
+      "closure" : [
         "2019",
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019",

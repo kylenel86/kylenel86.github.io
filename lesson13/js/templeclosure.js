@@ -7,7 +7,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject){
 
-const templeclosure = jsonObject["closure dates"];
+const templeclosure = jsonObject["closure"];
 
 for (let i = 0; i < templeclosure.length; i++ ) {
 

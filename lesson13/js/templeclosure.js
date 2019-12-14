@@ -6,8 +6,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject)
-    console.table(jsonObject);
-});
+{
 
 const templeclosure = jsonObject["closure"];
 

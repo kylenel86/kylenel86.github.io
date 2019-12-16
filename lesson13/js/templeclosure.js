@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject)
 {
 
-const templeclosure = jsonObject["templeclosure"];
+const closure = jsonObject["closure"];
 
 for (let i = 0; i < templeclosure.length; i++ ) {
 

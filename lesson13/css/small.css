@@ -1,0 +1,33 @@
+header, footer {
+    margin: 0 auto;
+    padding: 0.15rem;
+    background-color: #003776;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #EAEAEA;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-family: 'Quicksand', sans-serif;
+    color: #EAEAEA;
+}
+.moto {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.heroimg {
+ position: relative;
+}

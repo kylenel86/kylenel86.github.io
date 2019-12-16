@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject)
 {
 
-const closure = jsonObject["closure"];
+const templeclosure = jsonObject["templeclosure"];
 
 for (let i = 0; i < templeclosure.length; i++ ) {
 
@@ -23,6 +23,6 @@ for (let i = 0; i < templeclosure.length; i++ ) {
     fillCard.appendChild(even);
     card.appendChild(fillCard);
     
-    document.querySelector('div.templecl').appendChild(card);
+    document.querySelector('div.templeclosure').appendChild(card);
 }
 });

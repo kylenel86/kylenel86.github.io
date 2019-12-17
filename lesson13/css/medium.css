@@ -17,4 +17,8 @@
         border: none;
         padding: .8rem 1rem;
     }
+
+    .heroimg {
+        display: none;
+    }
 }

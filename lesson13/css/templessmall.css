@@ -4,7 +4,7 @@ header, footer {
     background-color: #857C8D ;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: #EAEAEA;
+    color: #DAD6D6;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Dancing Script', cursive;
-    color: #EAEAEA;
+    color: #DAD6D6;;
 }
 .moto {
     font-family: 'Poppins', sans-serif;
@@ -35,7 +35,7 @@ header {
 body {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    background-color: #94BFBE;
+    background-color: #DAD6D6;
     padding: 0;
     margin: 0;
 }
@@ -59,11 +59,11 @@ nav ul {
 
 .active a {
     color: white;
-    background-color: #a3a0ab;
+    background-color: #4C5760;
 }
 
 .navigation {
-    background-color: #857C8D;
+    background-color: #331832;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -86,12 +86,12 @@ nav ul {
     font-size: 18px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navigation a:hover {
-    background-color: #1213;
-    color: #EAEAEA;
+    background-color: #4C5760;
+    color: #fff;
     font-weight: 700;
 }
 
@@ -99,12 +99,8 @@ nav ul {
     display: block;
 }
 
-.heroimg {
-    width: 100%;
-}
-
 h2 {
-    color:#4C5760;
+    color: #331832;
     text-align: center; 
 }
 
@@ -131,3 +127,4 @@ footer {
     padding: .5rem 2%;
     text-align: center;
 }
+

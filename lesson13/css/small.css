@@ -23,7 +23,7 @@ header {
     color: #EAEAEA;
 }
 .moto {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-left: 20px;
 }
@@ -63,7 +63,7 @@ nav ul {
 }
 
 .navigation {
-    background-color:  #331832;
+    background-color: #857C8D;
     text-align: center;
     list-style: none;
     padding: 0;

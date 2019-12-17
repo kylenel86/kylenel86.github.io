@@ -1,9 +1,9 @@
 header, footer {
     margin: 0 auto;
     padding: 0.15rem;
-    background-color: #003776;
+    background-color: #857C8D ;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
     color: #EAEAEA;
 }
 
@@ -19,7 +19,7 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: #EAEAEA;
 }
 .moto {

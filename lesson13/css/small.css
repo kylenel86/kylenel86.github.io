@@ -4,7 +4,7 @@ header, footer {
     background-color: #857C8D ;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: #EAEAEA;
+    color: #DAD6D6;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     font-family: 'Dancing Script', cursive;
-    color: #857C8D;
+    color: #DAD6D6;;
 }
 .moto {
     font-family: 'Poppins', sans-serif;
@@ -59,7 +59,7 @@ nav ul {
 
 .active a {
     color: white;
-    background-color: #857C8D;
+    background-color: #4C5760;
 }
 
 .navigation {
@@ -90,8 +90,8 @@ nav ul {
 }
 
 .navigation a:hover {
-    background-color: #1213;
-    color: #EAEAEA;
+    background-color: #4C5760;
+    color: #fff;
     font-weight: 700;
 }
 
@@ -104,7 +104,7 @@ nav ul {
 }
 
 h2 {
-    color:#4C5760;
+    color: #331832;
     text-align: center; 
 }
 

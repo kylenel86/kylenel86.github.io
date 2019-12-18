@@ -1,0 +1,20 @@
+@media only screen and (min-width: 35em) {
+
+    nav ul.hide {display:block;}
+
+    nav ul {display: flex;
+            justify-content: space-evenly;
+        }
+    nav ul.navigation li {
+        display: contents;
+    }    
+
+    nav ul.responsive li {
+        display: contents;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+}

@@ -22,15 +22,6 @@ header {
     font-family: 'Dancing Script', cursive;
     color: #DAD6D6;;
 }
-.moto {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.heroimg {
- position: relative;
-}
 
 body {
     font-family: 'Oswald', sans-serif;

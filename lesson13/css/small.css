@@ -132,6 +132,6 @@ footer {
     background-color: #857C8D;
     padding: .5rem 2%;
     text-align: center;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    height: 50px;
+    margin-top: -50px;
 }

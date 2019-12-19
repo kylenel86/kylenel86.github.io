@@ -33,6 +33,7 @@ body {
     background-color: #DAD6D6;
     padding: 0;
     margin: 0;
+    display: grid;
 }
 
 .heroimg {
@@ -132,6 +133,7 @@ footer {
     background-color: #857C8D;
     padding: .5rem 2%;
     text-align: center;
-    height: 50px;
-    margin-top: -50px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
 }

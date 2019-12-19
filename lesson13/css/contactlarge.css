@@ -40,6 +40,10 @@ header img {
     height: auto;
 }
 
+.mapimg {
+    width: 100%;
+}
+
 .contact p {
     text-align: center;
     font-family: 'Quicksand', serif;
@@ -101,10 +105,6 @@ h2 {
     color: #4C5760;
     text-align: center;
     font-family:'Poppins', sans-serif;  
-}
-
-.mapimg {
-    width: 100%;
 }
 
 .container {

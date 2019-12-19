@@ -1,8 +1,10 @@
 @media only screen and (max-width: 600px){
     nav ul li a {
         display:none;
-        
-            }
+    }
+        menu {
+        display:none;
+    }  
     
     .mapimg{
         display:none;

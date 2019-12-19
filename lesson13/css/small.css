@@ -104,22 +104,29 @@ h2 {
 }
 
 main {
-    padding: 0px;
-    margin: 5px auto;
-    text-align: center; 
-    max-width: 750px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: auto;
 }
+
 main section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
 main h1 {
-    background-color:  #6E8898;
+    background-color: #4C5760;
     color: #EAEAEA;
 }  
+
+.gridgallery{
+    max-width: 100%;
+
+}
 
 footer {
     background-color: #857C8D;

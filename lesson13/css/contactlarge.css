@@ -105,7 +105,8 @@ h2 {
 }
 
 .mapimg {
-    width:100%;
+  display: center;  
+  width:100%;
 }
 
 .container {

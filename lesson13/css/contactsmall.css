@@ -1,3 +1,7 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 body {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
@@ -98,21 +102,24 @@ h2 {
     text-align: center;
     font-family:'Poppins', sans-serif;  
 }
- 
-.container {
-    margin: auto;
-      width: 250px;
-      height: 350px;
-      background-color: #94BFBE;
-      color: #4C5760;
-      padding: 5px;
-      border-radius: 5px;
-}
 
 .mapimg {
     display:none;
 }
- 
+
+.container {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid #4C5760;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #4C5760;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #94BFBE;
+}
+
 form input.submitBtn {
     border: none;
     background-color: #4C5760;

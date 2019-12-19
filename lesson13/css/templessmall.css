@@ -86,31 +86,6 @@ nav ul {
     display: block;
 }
 
-.summary {
-    position: absolute;
-    width: 25%;
-    max-width: 200px;
-    min-width: 150px;
-    top: .8rem;
-    left: .8rem;
-    background-color: rgba(109, 186, 163, 0.8);
-    padding: 0.2rem 0.8rem;
-    border: 1px solid #182944;
-    opacity: 1;
-    box-shadow: 0 0 30px #7b8596;
-
-}
-
-.summary h3 {
-    text-align: center;
-    text-decoration-line: underline;
-    font-size: 1rem;
-}
-
-.summary p {
-    font-size: .8rem;
-}
-
 h2 {
     color: #331832;
     text-align: center; 

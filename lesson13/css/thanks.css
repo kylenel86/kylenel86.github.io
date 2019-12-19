@@ -1,0 +1,239 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    background-color: #EAEAEA;
+    padding: 0;
+    margin: 0;
+}
+/* Small / Baseline view */
+header, footer {
+    margin: 0 auto;
+    padding: 0.15rem;
+    background-color: #003776;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #EAEAEA;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-family: 'Quicksand', sans-serif;
+    color: #EAEAEA;
+}
+.moto {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.heroimg {
+ position: relative;
+}
+
+img.food , img.mappreston {
+    display:none;
+}
+
+img.prestonhi {
+    width:100%;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.summary {
+    position: absolute;
+    width: 25%;
+    max-width: 200px;
+    min-width: 150px;
+    top: .8rem;
+    left: .8rem;
+    background-color:  #6E8898;
+    color: #EAEAEA;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #003776;;
+    opacity: 1;
+    box-shadow: 0 0 30px #7b8596;
+
+}
+
+.summary h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 1rem;
+}
+
+.summary p {
+    font-size: .8rem;
+}
+
+.forecast h3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foretable {
+    background-color: #6E8898;
+    color:#EAEAEA;
+    margin: 2% 0;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    max-width: 1200px;
+
+}
+
+.prestonevents, .sodaspringsevents, .fishhavensevents {
+    border: solid 2px #003776;
+    margin: 1em;
+    padding: 1em;
+    background-color: #6E8898;
+    color: #EAEAEA;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.article {
+    border: solid 2px #003776;
+    margin: 1em;
+    padding: 1em;
+    background-color: #6E8898;
+    color: #EAEAEA;
+    text-align: center;
+    display: flex;
+}
+
+.article h2 {
+    text-align: center;
+}
+
+.article img {
+    width: 300px;
+    height: auto;
+}
+
+.contact p {
+    text-align: center;
+    font-family: 'Quicksand', serif;
+    font-size: 1rem;
+    color: #003776;;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.active a {
+    color: white;
+    background-color: #a3a0ab;
+}
+
+.navigation {
+    background-color:  #6E8898;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #1213;
+    color: #EAEAEA;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+.heroimg {
+    width: 400px;
+    height: 300px;
+}
+
+h2 {
+    color:#003776;
+    text-align: center; 
+}
+
+main {
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center; 
+    max-width: 750px;
+}
+main section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+main h1 {
+    background-color:  #6E8898;
+    color: #EAEAEA;
+}  
+.towns{
+    display: grid;
+    grid-gap: .25rem;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.towns div {
+    margin: auto;
+      width: 250px;
+      height: 350px;
+    background-color: #6E8898;
+      color: #EAEAEA;
+      padding: 5px;
+      border-radius: 5px;
+  }
+  .towns p{
+      padding: 5px;
+  }
+
+  footer {
+    background-color: #003776;;
+    padding: .5rem 2%;
+    text-align: center;
+}

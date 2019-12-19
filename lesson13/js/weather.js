@@ -1,5 +1,5 @@
-let page = document.getElementById('page').innerHTML
-let townID = ""
+let page = document.getElementById('page').innerHTML;
+let townID = "";
 switch (page) {
     case "Los Angeles":
         townID = "1705545";

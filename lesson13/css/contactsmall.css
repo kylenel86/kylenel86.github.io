@@ -112,8 +112,8 @@ h2 {
     display: block;
     font-size: 1rem;
     border: solid #4C5760;
-    border-radius: 4px;
-    padding: .75rem;
+    border-radius: 10px;
+    padding: .50rem;
     color: #4C5760;
     width: 100%;
     max-width: 20rem;

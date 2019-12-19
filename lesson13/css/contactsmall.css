@@ -118,6 +118,7 @@ h2 {
     width: 100%;
     max-width: 20rem;
     background-color: #94BFBE;
+    margin-left: 100px;
 }
 
 form input.submitBtn {

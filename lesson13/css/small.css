@@ -109,7 +109,7 @@ main h1 {
     font-size: 22pt;
 }  
 
-.gridgallery{
+.gridgallery, .gridgallery1 {
     max-width: 100%;
 
 }
@@ -152,7 +152,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
-    position: relative;
+    position: center;
 }
 
 footer {

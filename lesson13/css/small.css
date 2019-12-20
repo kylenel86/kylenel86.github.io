@@ -114,11 +114,20 @@ main h1 {
 
 }
 
-.p {
+.box {
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 
     text-align: center;
     color:#4C5760;
+    border: 1px solid black ;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ; 
+}
+
+
+1 {
+
 }
 
 .thanks {

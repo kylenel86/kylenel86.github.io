@@ -1,20 +1,20 @@
 let page = document.getElementById('page').innerHTML;
-let townID = "";
+let townID1 = "";
 switch (page) {
     case "Los Angeles":
-        townID = "1705545";
+        townID1 = "1705545";
         break;
 
     case "Newport Beach":
-        townID = "5376890"
+        townID1 = "5376890";
         break;
 
     case "Redlands":
-        townID = "5386754"
+        townID1 = "5386754";
         break;
 
      case "San Diego":
-         townID = "5391811"
+         townID1 = "5391811";
          break; 
 
     default:
@@ -22,8 +22,8 @@ switch (page) {
         break;
 }
 
-const weatherAPI = "https://api.openweathermap.org/data/2.5/weather?id=" + townID + "&units=imperial&APPID=298181e058cfcde0233e850c77ea6b0f";
-fetch(weatherAPI)
+const weatherAPI1 = "https://api.openweathermap.org/data/2.5/weather?id=" + townID1 + "&units=imperial&APPID=298181e058cfcde0233e850c77ea6b0f";
+fetch(weatherAPI1)
     .then((response) => response.json())
     .then((jsObject) => {
         //console.log(jsObject);
@@ -39,8 +39,8 @@ fetch(weatherAPI)
 
     });
 
-const forecastAPI = "https://api.openweathermap.org/data/2.5/forecast?id=" + townID + "&units=imperial&APPID=298181e058cfcde0233e850c77ea6b0f";
-fetch(forecastAPI)
+const forecastAPI1 = "https://api.openweathermap.org/data/2.5/forecast?id=" + townID1 + "&units=imperial&APPID=298181e058cfcde0233e850c77ea6b0f";
+fetch(forecastAPI1)
     .then((response) => response.json())
     .then((jsObject) => {
         //console.log(jsObject);

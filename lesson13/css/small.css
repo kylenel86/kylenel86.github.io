@@ -85,10 +85,10 @@ nav ul {
     width: 100%;
 }
 
-h2 {
+h2,h3 {
     color: #4C5760;
     text-align: center;
-    font-size: large;
+    font-size: 18pt;
     font-family: 'Dancing Script', cursive; 
 }
 

@@ -163,7 +163,7 @@ form input.submitBtn {
     margin-right: auto
 }
 
-.sdtemple {
+.sdtemple, .redtemple, .nbtemple, .latemple {
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 
     text-align: center;

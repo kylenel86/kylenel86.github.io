@@ -135,6 +135,9 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+nav ul.navigation li:first-child {display:none; }
+nav ul.responsive li:first-child {display:none; }
+
 footer {
     background-color: #857C8D;
     padding: .5rem 2%;

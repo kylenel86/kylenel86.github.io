@@ -17,4 +17,12 @@
         border: none;
         padding: .8rem 1rem;
     }
+    
+    main {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr,1fr;
+        grid-template-rows: auto;
+        margin: auto;
+    }
 }

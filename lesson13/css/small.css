@@ -109,6 +109,12 @@ main h1 {
     font-size: 22pt;
 }  
 
+.gallery, .gallery1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 .gridgallery, .gridgallery1 {
     max-width: 100%;
 
@@ -142,7 +148,7 @@ p{
     text-align: center;
 }
 
-.button {
+form input.submitBtn {
     border: none;
     background-color: #94BFBE;
     text-align: center;
@@ -152,7 +158,9 @@ p{
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
-    margin:0, auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 footer {

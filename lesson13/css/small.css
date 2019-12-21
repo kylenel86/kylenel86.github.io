@@ -12,10 +12,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-.headings {
-    display: flex;
-    flex-direction: column;
-}
+
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;

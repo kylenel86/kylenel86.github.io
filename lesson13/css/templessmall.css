@@ -168,6 +168,7 @@ form input.submitBtn {
 }
 
 .sdtemple, .redtemple, .nbtemple, .latemple {
+    display: flex;
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 
     text-align: center;

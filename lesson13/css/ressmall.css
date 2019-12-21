@@ -101,13 +101,13 @@ main {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #003776;
+    border: 1px solid #4C5760;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #003776;
+    color: #4C5760;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -115,7 +115,7 @@ form legend {
 form label.rep, form div {
     display: block;
     padding-top: 1rem;
-    color: #6E8898;
+    color: #4C5760;
     font-size: .8rem;
 }
 
@@ -140,7 +140,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #6E8898;
+    background-color: #94BFBE;
     text-align: center;
     color: white;
     border-radius: 1rem;
@@ -148,6 +148,9 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 form label.rep input:required {
@@ -160,9 +163,10 @@ form label.rep input:required:valid {
 }
 
 footer {
-    background-color: #003776;;
+    background-color: #857C8D;
     padding: .5rem 2%;
     text-align: center;
+    color: #DAD6D6;
 }
 
 .clearfix:after {

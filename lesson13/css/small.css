@@ -142,7 +142,7 @@ p{
     text-align: center;
 }
 
-form input.submitBtn {
+.button {
     border: none;
     background-color: #94BFBE;
     text-align: center;

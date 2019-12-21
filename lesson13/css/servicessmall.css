@@ -168,7 +168,6 @@ form input.submitBtn {
 }
 
 .sdtemple, .redtemple, .nbtemple, .latemple {
-    display: flex;
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 
     text-align: center;
@@ -181,7 +180,15 @@ form input.submitBtn {
     background-color: #94BFBE;
 }
 
-
+.container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    font-family:'Oswald', sans-serif; 
+    text-align: center;
+    font-size: 12px;
+}
 
 footer {
     background-color: #857C8D;

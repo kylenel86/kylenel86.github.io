@@ -176,7 +176,18 @@ form input.submitBtn {
     background-color: #94BFBE;
 }
 
-
+  .summary {
+    position: absolute;
+    padding: 15px;
+    top: 40px;
+    left: 60px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgba(80,99,77,0.95);
+    color: #F0ebd8;
+    font-size: .65rem;
+    box-shadow: 5px 5px 20px #1D2D44;
+  }
 
 footer {
     background-color: #857C8D;

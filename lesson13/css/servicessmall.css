@@ -120,10 +120,6 @@ main h1 {
 
 }
 
-.img{
-    float:left;
-}
-
 p {
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 
@@ -178,6 +174,13 @@ form input.submitBtn {
     -webkit-border-radius: 10px ; 
     padding: 10px;
     background-color: #94BFBE;
+}
+
+li {
+    font-size: 14pt;
+    font-family:'Oswald', sans-serif; 
+    text-align: center;
+    color:#4C5760;
 }
 
 footer {

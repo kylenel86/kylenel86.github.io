@@ -17,4 +17,6 @@
         border: none;
         padding: .8rem 1rem;
     }
+    nav ul.navigation li:first-child {display:none; }
+    nav ul.responsive li:first-child {display:none; }
 }

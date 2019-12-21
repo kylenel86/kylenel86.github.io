@@ -19,6 +19,8 @@
     }
     
     .mapimg {
-        width: 50%;
+        width: 25%;
     }
+    nav ul.navigation li:first-child {display:none; }
+    nav ul.responsive li:first-child {display:none; }
 }

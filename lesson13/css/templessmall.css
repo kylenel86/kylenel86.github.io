@@ -120,6 +120,10 @@ main h1 {
 
 }
 
+.img{
+    float:left;
+}
+
 p {
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 

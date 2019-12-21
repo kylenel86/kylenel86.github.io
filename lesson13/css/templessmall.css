@@ -109,7 +109,7 @@ main h1 {
     font-size: 22pt;
 }  
 
-.gallery, .gallery1 {
+.gallery, .gallery1 .img{
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -120,7 +120,7 @@ main h1 {
 
 }
 
-p{
+p {
     font-size: 14pt;
     font-family:'Oswald', sans-serif; 
     text-align: center;
